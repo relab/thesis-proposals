@@ -60,4 +60,5 @@ Our BBChain project aims to build a global and public database of digitally auth
 - [Fuzzy identity based signature](https://doi.org/10.1016/j.compeleceng.2011.04.013)
 - [Double Ratchet key exchange algorithm](https://signal.org/docs/specifications/doubleratchet/#introduction)
 - [X3DH key agreement protocol](https://signal.org/docs/specifications/x3dh)
+- [Swarm](https://swarm.ethereum.org/)
 - Rodrigo's draft paper

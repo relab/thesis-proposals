@@ -50,5 +50,10 @@ Our BBChain project aims to build a global and public database of digitally auth
 
 ## Reading Material
 
-- To be added
+- [Vugu](https://www.vugu.org/)
+- [GIO](https://github.com/theclapp/gio-mirror)
+- [GopherJS](https://github.com/gopherjs/gopherjs)
+- [WebAssembly](https://github.com/golang/go/wiki/WebAssembly)
+- [Ethereum Faucet](https://github.com/ethersphere/goerli-faucet.git)
+- [Metamask](https://metamask.io/)
 - Rodrigo's draft paper
