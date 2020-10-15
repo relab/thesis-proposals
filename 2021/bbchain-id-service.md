@@ -13,8 +13,25 @@
 ## Project Description
 
 The BBChain project has modeled some of the procedures of academic institutions in the form of smart contracts on the [Ethereum platform](https://github.com/ethereum/go-ethereum).
+The goal of this project is to study biometric methodologies that can be used by the BBChain project in order to create a link between the users' biometric traits and their cryptographic signing keys.
+Currently, only the public key of an user is used by the BBChain project to establish a link between the users' academic credential and his pseudo-identity.
+
+Further, users should be able to authenticate by exchanging the identity information with other devices using an encrypted peer-to-peer channel.
+The identity information (represented by a DID) should be verified through an identity provider (e.g. University).
 
 ## Tasks / Milestones
+
+* Study existing literature on privacy-preserving biometric authentication.
+* Study existing literature on Decentralized Identifiers (i.e. DID).
+* Study existing literature on secure key exchange protocols and peer-to-peer networks.
+* Design and implement an biometric-based identification service that can be incorporated to the bbchain project. The implemented system should, among other things:
+    - extract biometric traits and create the users' DID based on the extracted data.
+    - allow users to securely exchange identity data in a peer-to-peer basis.
+    - allow users to authenticate academic credentials using their DIDs and a biometric samples.
+    - provide an RPC API that expose the system functionalities for easy integration with BBChain.
+    - store the identity data encrypted in a configurable storage (users' device and Swarm network)
+* Identify procedures whose security properties can be strengthened by the biometric link.
+* Report on findings and lessons learned from the implementation, concluding on the feasibility of the developed application for the BBChain scenario
 
 ## Background on BBChain
 
@@ -37,5 +54,10 @@ Our BBChain project aims to build a global and public database of digitally auth
 
 ## Reading Material
 
-- To be added
+- [DID](https://github.com/w3c/did-core)
+- [openbr](https://github.com/biometrics/openbr)
+- [Fuzzy signatures](https://www.researchgate.net/publication/303860396_Fuzzy_Signatures_Relaxing_Requirements_and_a_New_Construction)
+- [Fuzzy identity based signature](https://doi.org/10.1016/j.compeleceng.2011.04.013)
+- [Double Ratchet key exchange algorithm](https://signal.org/docs/specifications/doubleratchet/#introduction)
+- [X3DH key agreement protocol](https://signal.org/docs/specifications/x3dh)
 - Rodrigo's draft paper
