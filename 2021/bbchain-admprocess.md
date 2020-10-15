@@ -52,6 +52,7 @@ Our BBChain project aims to build a global and public database of digitally auth
 
 - [The Oracle Problem](https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/)
 - [Oracle Interfaces Discussion](https://github.com/ethereum/EIPs/issues/1161)
+- [Provable](https://provable.xyz/)
 - [Town Crier: An Authenticated Data Feed for Smart Contracts](https://www.initc3.org/files/tc.pdf)
 - [Solidity](https://solidity.readthedocs.io/en/latest/)
 - Rodrigo's draft paper
