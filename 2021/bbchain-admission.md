@@ -6,9 +6,10 @@
 
 ## Prerequisites
 
-- DAT520 Distributed Systems
-- DAT650 Blockchain Technology
+- DAT310 Web programming
+- DAT320 Operating systems and systems programming
 - Proficient in the Go programming language
+- Proficient in web programming
 
 ## Project Description
 

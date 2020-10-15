@@ -6,8 +6,9 @@
 
 ## Prerequisites
 
-- DAT520 Distributed Systems
-- DAT650 Blockchain Technology
+- DAT310 Web programming
+- DAT320 Operating systems and systems programming
+- Be interest in user interface design
 - Proficient in the Go programming language
 - Proficient in web programming
 
@@ -15,7 +16,7 @@
 
 The BBChain project has modeled some of the procedures of academic institutions in the form of smart contracts on the [Ethereum platform](https://github.com/ethereum/go-ethereum).
 The goal of this project is to develop a DApp (i.e. Decentralized application) that can be integrated in the BBChain project.
-Currently, the BBChain project only have a command line interface and this project aims to enhance its usability by invoking the BBChain contracts API from a graphical interface.
+Currently, the BBChain project only have a command line interface and this project aims to enhance its usability by invoking the BBChain contracts API from a graphical user interface.
 Further, support could be added to Quickfeed (formerly Autograder), to automate or simplify the grade registration process.
 
 In particular, the UI should allow easy use of the certification interface provided by the BBChain smart contracts, allowing users to among other things: create, sign, revoke and verify the academic credentials using a web browser or their phones.
@@ -27,8 +28,8 @@ The users should also be able to manage their cryptographic keys and interact wi
 - Study the current procedures of academic institutions
 - Design and implement a web frontend or mobile application to access these procedures
 - Implement and deploy a Ethereum Faucet on the BBChain private cluster
-- Simulate an evaluation process using developed UI and the Faucet to fund the accounts
-- Optionally, a integration with the BBChain identity service will be done
+- Simulate an evaluation process using the developed UI and the Faucet to fund the accounts
+- Optionally, integration with the BBChain identity service can be done
 - Report on findings and lessons learned from the implementation, concluding on the feasibility of the developed application for the BBChain scenario
 
 ## Background on BBChain
