@@ -14,12 +14,13 @@
 
 ## Hein's theses
 
-| title                                              |  b/m  | file                                  | comment                    |
-| :--------------------------------------------      | :---: | :-----------------------------------  | :------------------------- |
-| Gorums/HotStuff Reconfiguration                    |   m   | [HotRec](gorums-hotstuff-reconfig.md) | w/Leander                  |
-| BBChain Application for Academic Institutions      |   m   | [bbchain-app](bbchain-app.md)         | w/Rodrigo                  |
-| BBChain Identity Service                           |   m   | [bbchain-id](bbchain-id-service.md)   | w/Rodrigo                  |
-| BBChain Blockchain based on Gorums/HotStuff        |   m   | [bb-block](bbchain-block.md)          | w/Rodrigo and Leander      |
-| Quickfeed: Desktop User Interface with SwiftUI     |   b   | [quickfeed-swift](quickfeed-swift.md) | not taken in 2020          |
-| Quickfeed: Redesigned Web Frontend                 |   b   | [quickfeed-ui](quickfeed-ui.md)       |                            |
-| A Teaching Operating System based on Simulation... |   b   | [teaching-os](teaching-os.md)         |                            |
+| title                                                 |  b/m  | file                                     | comment               |
+| :---------------------------------------------------- | :---: | :----------------------------------------| :-------------------- |
+| Gorums/HotStuff Reconfiguration                       |   m   | [HotRec](gorums-hotstuff-reconfig.md)    | w/Leander             |
+| BBChain Application for Academic Institutions         |   m   | [bbchain-app](bbchain-app.md)            | w/Rodrigo             |
+| BBChain Identity Service                              |   m   | [bbchain-id](bbchain-id-service.md)      | w/Rodrigo             |
+| BBChain Blockchain based on Gorums/HotStuff           |   m   | [bb-block](bbchain-block.md)             | w/Rodrigo and Leander |
+| BBChain Graphical Interface for File Repair Algorithm |   b   | [file-repair-ui](bbchain-file-repair.md) | w/Racin               |
+| Quickfeed: Desktop User Interface with SwiftUI        |   b   | [quickfeed-swift](quickfeed-swift.md)    | not taken in 2020     |
+| Quickfeed: Redesigned Web Frontend                    |   b   | [quickfeed-ui](quickfeed-ui.md)          |                       |
+| A Teaching Operating System based on Simulation...    |   b   | [teaching-os](teaching-os.md)            |                       |
