@@ -23,10 +23,12 @@
         "cryptocurrency",
         "deschedule",
         "gonum",
+        "hotstuff",
         "microbenchmarks",
         "overmind",
         "permissioned",
         "reactpbft",
+        "reconfig",
         "reimplemented"
     ]
 }
