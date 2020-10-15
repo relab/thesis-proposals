@@ -20,6 +20,8 @@
 | [BBChain Application for Academic Institutions](bbchain-app.md)                 |   m   | w/Rodrigo             |
 | [BBChain Identity Service](bbchain-id-service.md)                               |   m   | w/Rodrigo             |
 | [BBChain Blockchain based on Gorums/HotStuff](bbchain-block.md)                 |   m   | w/Rodrigo and Leander |
+| [BBChain DApp](bbchain-dapp.md)                                                 |   b   | w/Rodrigo             |
+| [BBChain Admission process](bbchain-admprocess.md)                              |   b   | w/Rodrigo             |
 | [BBChain Graphical Interface for File Repair Algorithm](bbchain-file-repair.md) |   b   | w/Racin               |
 | [Quickfeed: Desktop User Interface with SwiftUI](quickfeed-swift.md)            |   b   |                       |
 | [Quickfeed: Redesigned Web Frontend](quickfeed-ui.md)                           |   b   |                       |
