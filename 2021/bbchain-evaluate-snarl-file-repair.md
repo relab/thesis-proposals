@@ -34,8 +34,9 @@ This research is highly relevant, so successful implementations might see real-l
 ## Background on Distributed Storage Systems
 
 A few videos to get an overview of the technology
+- [Filecoin](https://www.youtube.com/watch?v=EClPAFPeXIQ)
 - [Etherem Swarm](https://www.youtube.com/watch?v=VgTZV471WFM)
-- [Filecoin](https://www.youtube.com/watch?v=P28aNAdZDi4)
+- [Filecoin detailed](https://www.youtube.com/watch?v=P28aNAdZDi4)
 
 ## Reading Material
 
