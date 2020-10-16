@@ -1,16 +1,19 @@
 # Web Assembly for system programming
 
-### Supervisor: Leander Jehl
+## Administrative
 
-### Prerequisits
-- Operating systems (DAT320)
-- Programming skills in Go, Rust, or C++ or insterest to learn
+- Supervisor: Leander Jehl
 
-### Project
+## Prerequisites
+
+- DAT320 Operating systems and systems programming
+- Programming skills in Go, Rust, or C++ or interest to learn
+
+## Project Description
 
 The goal of this project is to evaluate the use of Web Assembly as compile target and runtime for distributed or networked systems.
 Towards this goal, you should implement a simple distributed application in at least two languages that support compilation to Web Assembly, e.g. Go, Rust, C++.
-All versions should use the same data format, preferably Protobuf, and may build upon GRPC libraries.
+All versions should use the same data format, preferably Protobuf, and may build upon gRPC libraries.
 
 Resulting implementations should be compiled to Web Assembly and run using interpreters or virtual machines.
 
