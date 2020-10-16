@@ -5,6 +5,7 @@
 - Supervisor: Hein Meling and Racin Nygaard
 
 ## Prerequisites
+
 - DAT200 Algorithms and Data Structures
 - DAT520 Distributed Systems
 - Proficient in the Go programming language
@@ -34,15 +35,16 @@ This research is highly relevant, so successful implementations might see real-l
 ## Background on Distributed Storage Systems
 
 A few videos to get an overview of the technology
+
 - [Filecoin](https://www.youtube.com/watch?v=EClPAFPeXIQ)
-- [Etherem Swarm](https://www.youtube.com/watch?v=VgTZV471WFM)
+- [Ethereum Swarm](https://www.youtube.com/watch?v=VgTZV471WFM)
 - [Filecoin detailed](https://www.youtube.com/watch?v=P28aNAdZDi4)
 
 ## Reading Material
 
 - [Ethereum Swarm Doc](https://swarm-guide.readthedocs.io/en/latest/introduction.html)
-- [Etherum Swarm](https://swarm.ethereum.org/)
-- [Etherum Swarm Bee](https://github.com/ethersphere/bee)
+- [Ethereum Swarm](https://swarm.ethereum.org/)
+- [Ethereum Swarm Bee](https://github.com/ethersphere/bee)
 - [Filecoin](https://filecoin.io/)
 - [Alpha Entanglement Codes](https://arxiv.org/abs/1810.02974)
 - [DAT](https://dat.foundation/)

@@ -2,27 +2,29 @@
 
 ## Leander's theses
 
-| title                                         |  b/m  | file                                 | comment                    |
-| :-------------------------------------------- | :---: | :----------------------------------- | :------------------------- |
-| HotStuff in WASM                              |   m   | [HotWASM](hotwasm.md)                | in collaboration with TUBS |
-| Reactive programming and async flows for PBFT |   m   | [reactpbft](reactpbft.md)            | using Cleipnir             |
-| Vugu vs Vue.js                                |   b   | [vugu](vugu.md)                      |                            |
-| WASM for Systems                              |   b   | [WasmSys](wasmsys.md)                |                            |
-| Small misbehavior proof for blockchains       |   m   | [pom-chain](pom-chain.md)            |                            |
-| Uncles for sharding                           |   m   | [2020](../2020/UnclesForSharding.md) | not taken in 2020          |
-| Quorum Selection in XFT                       |   m   | [QS-XFT](../2020/QS-XFT.md)          | not taken in 2020          |
+| title                                                         |  b/m  | comment                    |
+| :------------------------------------------------------------ | :---: | :------------------------- |
+| [HotStuff in WASM](hotwasm.md)                                |   m   | in collaboration with TUBS |
+| [Reactive programming and async flows for PBFT](reactpbft.md) |   m   | using Cleipnir             |
+| [Vugu vs Vue.js](vugu.md)                                     |   b   |                            |
+| [WASM for Systems](wasmsys.md)                                |   b   |                            |
+| [Small misbehavior proof for blockchains](pom-chain.md)       |   m   |                            |
+| [Uncles for sharding](../2020/UnclesForSharding.md)           |   m   | not taken in 2020          |
+| [Quorum Selection in XFT](../2020/QS-XFT.md)                  |   m   | not taken in 2020          |
 
 ## Hein's theses
 
 | title                                                                           |  b/m  | comment               |
 | :------------------------------------------------------------------------------ | :---: | :-------------------- |
 | [Gorums/HotStuff Reconfiguration](gorums-hotstuff-reconfig.md)                  |   m   | w/Leander             |
-| [BBChain Application for Academic Institutions](bbchain-app.md)                 |   m   | w/Rodrigo             |
-| [BBChain Identity Service](bbchain-id-service.md)                               |   m   | w/Rodrigo             |
 | [BBChain Blockchain based on Gorums/HotStuff](bbchain-block.md)                 |   m   | w/Rodrigo and Leander |
+| [Evaluate Snarl File Repair](bbchain-snarl.md)                                  |   m   | w/Racin               |
 | [BBChain DApp](bbchain-dapp.md)                                                 |   b   | w/Rodrigo             |
 | [BBChain Admission process](bbchain-admprocess.md)                              |   b   | w/Rodrigo             |
 | [BBChain Graphical Interface for File Repair Algorithm](bbchain-file-repair.md) |   b   | w/Racin               |
 | [Quickfeed: Desktop User Interface with SwiftUI](quickfeed-swift.md)            |   b   |                       |
 | [Quickfeed: Redesigned Web Frontend](quickfeed-ui.md)                           |   b   |                       |
 | [A Teaching Operating System based on Simulation...](teaching-os.md)            |   b   |                       |
+| **Backup Projects:**                                                            |       |                       |
+| (backup) [BBChain Application for Academic Institutions](bbchain-app.md)        |   m   | w/Rodrigo             |
+| (backup) [BBChain Identity Service](bbchain-id-service.md)                      |   m   | w/Rodrigo             |
