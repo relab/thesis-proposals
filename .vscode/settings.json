@@ -8,6 +8,7 @@
         "Hein",
         "Hein's",
         "Jehl",
+        "Kapitza",
         "Meling",
         "Merkle",
         "Nygaard",
@@ -20,6 +21,7 @@
         "Saramago",
         "Stidsborg",
         "Sylvest",
+        "UTXO",
         "Vugu",
         "WASM",
         "bbchain",
@@ -28,11 +30,14 @@
         "deschedule",
         "gonum",
         "hotstuff",
+        "hotwasm",
         "microbenchmarks",
         "overmind",
         "permissioned",
         "reactpbft",
         "reconfig",
-        "reimplemented"
+        "reimplemented",
+        "runtimes",
+        "wasmsys"
     ]
 }

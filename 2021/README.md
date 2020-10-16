@@ -20,7 +20,7 @@
 | [BBChain Blockchain based on Gorums/HotStuff](bbchain-block.md)                 |   m   | w/Rodrigo and Leander |
 | [Evaluate Snarl File Repair](bbchain-snarl.md)                                  |   m   | w/Racin               |
 | [BBChain DApp](bbchain-dapp.md)                                                 |   b   | w/Rodrigo             |
-| [BBChain Admission process](bbchain-admprocess.md)                              |   b   | w/Rodrigo             |
+| [BBChain Admission process](bbchain-admission.md)                               |   b   | w/Rodrigo             |
 | [BBChain Graphical Interface for File Repair Algorithm](bbchain-file-repair.md) |   b   | w/Racin               |
 | [Quickfeed: Desktop User Interface with SwiftUI](quickfeed-swift.md)            |   b   |                       |
 | [Quickfeed: Redesigned Web Frontend](quickfeed-ui.md)                           |   b   |                       |
