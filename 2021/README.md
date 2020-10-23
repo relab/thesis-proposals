@@ -14,17 +14,18 @@
 
 ## Hein's theses
 
-| title                                                                           |  b/m  | comment               |
-| :------------------------------------------------------------------------------ | :---: | :-------------------- |
-| [Gorums/HotStuff Reconfiguration](gorums-hotstuff-reconfig.md)                  |   m   | w/Leander             |
-| [BBChain Blockchain based on Gorums/HotStuff](bbchain-block.md)                 |   m   | w/Rodrigo and Leander |
-| [Evaluate Snarl File Repair](bbchain-snarl.md)                                  |   m   | w/Racin               |
-| [BBChain DApp](bbchain-dapp.md)                                                 |   b   | w/Rodrigo             |
-| [BBChain Admission process](bbchain-admission.md)                               |   b   | w/Rodrigo             |
-| [BBChain Graphical Interface for File Repair Algorithm](bbchain-file-repair.md) |   b   | w/Racin               |
-| [Quickfeed: Desktop User Interface with SwiftUI](quickfeed-swift.md)            |   b   |                       |
-| [Quickfeed: Redesigned Web Frontend](quickfeed-ui.md)                           |   b   |                       |
-| [A Teaching Operating System based on Simulation...](teaching-os.md)            |   b   |                       |
-| **Backup Projects:**                                                            |       |                       |
-| (backup) [BBChain Application for Academic Institutions](bbchain-app.md)        |   m   | w/Rodrigo             |
-| (backup) [BBChain Identity Service](bbchain-id-service.md)                      |   m   | w/Rodrigo             |
+| title                                                                                              |  b/m  | comment               |
+| :------------------------------------------------------------------------------------------------- | :---: | :-------------------- |
+| [Gorums/HotStuff Reconfiguration](gorums-hotstuff-reconfig.md)                                     |   m   | w/Leander             |
+| [BBChain Blockchain based on Gorums/HotStuff](bbchain-block.md)                                    |   m   | w/Rodrigo and Leander |
+| [Evaluate Snarl File Repair](bbchain-snarl.md)                                                     |   m   | w/Racin               |
+| [BBChain DApp](bbchain-dapp.md)                                                                    |   b   | w/Rodrigo             |
+| [BBChain Admission process](bbchain-admission.md)                                                  |   b   | w/Rodrigo             |
+| [BBChain Graphical Interface for File Repair Algorithm](bbchain-file-repair.md)                    |   b   | w/Racin               |
+| [Quickfeed Security: Redesigned Authentication and Authorization Architecture](quickfeed-auth.md)  |   b   |                       |
+| [Quickfeed: Desktop User Interface with SwiftUI](quickfeed-swift.md)                               |   b   |                       |
+| [Quickfeed: Redesigned Web Frontend](quickfeed-ui.md)                                              |   b   |                       |
+| [A Teaching Operating System based on Simulation...](teaching-os.md)                               |   b   |                       |
+| **Backup Projects:**                                                                               |       |                       |
+| (backup) [BBChain Application for Academic Institutions](bbchain-app.md)                           |   m   | w/Rodrigo             |
+| (backup) [BBChain Identity Service](bbchain-id-service.md)                                         |   m   | w/Rodrigo             |
