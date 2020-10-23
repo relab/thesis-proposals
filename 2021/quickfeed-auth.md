@@ -42,3 +42,8 @@ Implementation language is mainly Go.
 ## Reading material
 
 - [gRPC interceptors](https://www.blog.dsb.dev/2019/06/14/creating-grpc-interceptors-in-go.html)
+- [Blog: Use gRPC interceptor for authorization with JWT](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
+- [gRPC OAuth2 support](https://github.com/grpc/grpc-go/blob/master/Documentation/grpc-auth-support.md)
+- [Blog: Using OAuth authentication tokens for gRPC client and server communications in Golang](http://www.inanzzz.com/index.php/post/cvjx/using-oauth-authentication-tokens-for-grpc-client-and-server-communications-in-golang)
+- [Package oauth2](https://pkg.go.dev/golang.org/x/oauth2)
+- [An implementation of JOSE standards (JWE, JWS, JWT) in Go](https://github.com/square/go-jose)

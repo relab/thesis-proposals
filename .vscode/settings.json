@@ -31,6 +31,7 @@
         "cryptocurrency",
         "deschedule",
         "gonum",
+        "grpc",
         "hotstuff",
         "hotwasm",
         "microbenchmarks",
