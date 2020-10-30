@@ -47,3 +47,4 @@ Implementation language is mainly Go.
 - [Blog: Using OAuth authentication tokens for gRPC client and server communications in Golang](http://www.inanzzz.com/index.php/post/cvjx/using-oauth-authentication-tokens-for-grpc-client-and-server-communications-in-golang)
 - [Package oauth2](https://pkg.go.dev/golang.org/x/oauth2)
 - [An implementation of JOSE standards (JWE, JWS, JWT) in Go](https://github.com/square/go-jose)
+- [Securing your gRPC Application, slides](https://talks.godoc.org/github.com/lpabon/go-slides/2019/nyc-meetup-july-18-2019.slide#1)
