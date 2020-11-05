@@ -1,4 +1,4 @@
-# Quickfeed DevOps: Improved Development end Deployment Facilities
+# Quickfeed DevOps: Improved Development and Deployment Facilities
 
 ## Administrative
 
