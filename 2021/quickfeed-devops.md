@@ -31,9 +31,14 @@ However, development and testing in this environment results in a certain amount
 Hence, we would like to move to a world in which setting up and running a test environment is as simple as building and running a docker image or even simpler.
 Possibly with integration using VSCode's Remote Containers plugin.
 
+The project involves configuring GitHub (and possibly GitLab) to interact with the development environment. Ideally, these configuration steps should be possible to automate.
+
+Depending on the complexity of this project, the students that take this project may also be asked to help with some of the other issues listed on the [issue tracker](https://github.com/autograde/quickfeed/issues) that fit the scope of the project.
+
 Implementation language is mainly Go and Docker files.
 
 ## Reading material
 
 - See [this issue](https://github.com/autograde/quickfeed/issues/360) on Quickfeed's issue tracker.
+- Full [list of issues](https://github.com/autograde/quickfeed/issues).
 - More to be added; contact supervisor for more information.
