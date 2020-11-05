@@ -25,6 +25,7 @@
 | [Quickfeed Security: Redesigned Authentication and Authorization Architecture](quickfeed-auth.md)  |   b   |                       |
 | [Quickfeed: Desktop User Interface with SwiftUI](quickfeed-swift.md)                               |   b   |                       |
 | [Quickfeed: Redesigned Web Frontend](quickfeed-ui.md)                                              |   b   |                       |
+| [Quickfeed: Quickfeed DevOps: Improved Development end Deployment Facilities](quickfeed-devops.md) |   b   |                       |
 | [A Teaching Operating System based on Simulation...](teaching-os.md)                               |   b   |                       |
 | **Backup Projects:**                                                                               |       |                       |
 | (backup) [BBChain Application for Academic Institutions](bbchain-app.md)                           |   m   | w/Rodrigo             |
