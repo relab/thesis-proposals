@@ -46,3 +46,6 @@ Implementation language is Swift and SwiftUI.
 - [Swift Protobuf](https://github.com/apple/swift-protobuf)
 - [Swift UI](https://developer.apple.com/xcode/swiftui)
 - [Swift UI Doc](https://developer.apple.com/documentation/swiftui)
+- [Hacking with Swift UI](https://www.hackingwithswift.com/)
+- [Swift UI Tutorials](https://developer.apple.com/tutorials/app-dev-training)
+
