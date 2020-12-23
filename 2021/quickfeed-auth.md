@@ -48,3 +48,4 @@ Implementation language is mainly Go.
 - [Package oauth2](https://pkg.go.dev/golang.org/x/oauth2)
 - [An implementation of JOSE standards (JWE, JWS, JWT) in Go](https://github.com/square/go-jose)
 - [Securing your gRPC Application, slides](https://talks.godoc.org/github.com/lpabon/go-slides/2019/nyc-meetup-july-18-2019.slide#1)
+- [Summary of auth method](https://testdriven.io/blog/web-authentication-methods/)
