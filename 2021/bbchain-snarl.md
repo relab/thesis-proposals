@@ -44,6 +44,7 @@ A few videos to get an overview of the technology
 
 - [Ethereum Swarm Doc](https://swarm-guide.readthedocs.io/en/latest/introduction.html)
 - [Ethereum Swarm](https://swarm.ethereum.org/)
+- [Book of Swarm](https://swarm-gateways.net/bzz:/latest.bookofswarm.eth/the-book-of-swarm-viktor-tron-v0.1-pre-release.pdf)
 - [Ethereum Swarm Bee](https://github.com/ethersphere/bee)
 - [Filecoin](https://filecoin.io/)
 - [Alpha Entanglement Codes](https://arxiv.org/abs/1810.02974)
