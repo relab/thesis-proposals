@@ -41,6 +41,7 @@ Implementation language is mainly Go.
 
 ## Reading material
 
+- [OAuth Authentication Vulnerabilities](https://portswigger.net/web-security/oauth)
 - [gRPC interceptors](https://www.blog.dsb.dev/2019/06/14/creating-grpc-interceptors-in-go.html)
 - [Blog: Use gRPC interceptor for authorization with JWT](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
 - [gRPC OAuth2 support](https://github.com/grpc/grpc-go/blob/master/Documentation/grpc-auth-support.md)
