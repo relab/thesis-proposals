@@ -38,7 +38,7 @@ To that end, this project has these milestones:
 - Upgrade to the most recent GORM version
 - Ensure that all database accesses use transactions to prevent inconsistencies
 - Implement the same [database API][2] using hand-written SQL statements
-- Discuss pro/con with ORM vs pure SQL queries, e.g., [see here][4]
+- Discuss pro/con with ORM vs pure SQL queries, e.g., [see here][4], [here][5], and [here][6]
 - Review and revise the current database ER model/schema and database API for simplification and performance
 - Implement additional integration and robustness tests, e.g., ability to handle multiple concurrent transactions without compromising consistency
 - Benchmark the performance of the different variants of the database
@@ -55,3 +55,5 @@ The implementation language is mainly Go and SQL.
 [2]: https://github.com/autograde/quickfeed/blob/master/database/database.go
 [3]: https://gorm.io
 [4]: https://wozniak.ca/blog/2014/08/03/What-ORMs-have-taught-me-just-learn-SQL/
+[5]: https://github.com/xo/xo
+[6]: https://github.com/volatiletech/sqlboiler

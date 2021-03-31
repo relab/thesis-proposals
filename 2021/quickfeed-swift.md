@@ -48,5 +48,6 @@ Implementation language is Swift and SwiftUI.
 - [Swift UI Doc](https://developer.apple.com/documentation/swiftui)
 - [Hacking with Swift UI](https://www.hackingwithswift.com/)
 - [Swift UI Tutorials](https://developer.apple.com/tutorials/app-dev-training)
+- [The missing Swift Web UI](http://www.alwaysrightinstitute.com/swiftwebui/)
 
 [1]: https://github.com/autograde/quickfeed
