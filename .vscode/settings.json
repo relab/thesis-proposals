@@ -3,7 +3,9 @@
         "Autograder",
         "Bloxy",
         "Cleipnir",
+        "Erlend",
         "Filecoin",
+        "GORM",
         "Gorums",
         "Hein",
         "Hein's",
@@ -23,6 +25,8 @@
         "Saramago",
         "Stidsborg",
         "Sylvest",
+        "T",
+        "Tøssebro",
         "UTXO",
         "Vugu",
         "WASM",
@@ -31,6 +35,7 @@
         "cryptocurrency",
         "deschedule",
         "devops",
+        "gitlab",
         "gonum",
         "grpc",
         "hotstuff",
@@ -42,6 +47,8 @@
         "reconfig",
         "reimplemented",
         "runtimes",
-        "wasmsys"
+        "ssebro",
+        "wasmsys",
+        "xanzy's"
     ]
 }

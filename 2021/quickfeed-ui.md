@@ -18,13 +18,13 @@ Students are expected to learn these technologies on their own.
 
 ## Background on Quickfeed (also known as Autograder)
 
-Quickfeed is a system developed at UiS to automatically evaluate student hand-ins.
-Quickfeed is able to run a set of tests against any hand-in delivered by students and will provide a score and feedback for the students.
-We have recently reimplemented both the Quickfeed backend and frontend to improve its robustness.
-In particular, the backend is now based on a gRPC-based server, a SQL database, the backend interacts with GitHub (and GitLab).
-The backend use the gRPC-web framework for handling client requests (with a few remaining REST interface calls).
+[Quickfeed][1] is a system developed at UiS to evaluate student hand-ins automatically.
+Quickfeed can run a set of tests against any hand-in delivered by students and provide a score and feedback.
+We have reimplemented both the Quickfeed backend and frontend to improve its robustness.
+The backend is a gRPC-based server with a SQL database, which interacts with GitHub.
+The backend uses the gRPC-web framework for handling client requests.
 We use Docker containers to run student code.
-On the frontend, we used the Typescript language along with the React framework from Facebook to avoid many of the concerns with the Javascript language.
+On the frontend, we used the Typescript language and the React framework from Facebook.
 
 ## Project description
 
@@ -52,3 +52,5 @@ Implementation language should be either Go or TypeScript.
 - [Adopting TypeScript](https://www.techatbloomberg.com/blog/10-insights-adopting-typescript-at-scale/)
 - [Vue vs React](https://www.monterail.com/blog/vue-vs-react-2020)
 - [Preact](https://preactjs.com/)
+
+[1]: https://github.com/autograde/quickfeed
