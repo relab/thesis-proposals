@@ -56,6 +56,7 @@ The implementation language is mainly Go.
 - [An implementation of JOSE standards (JWE, JWS, JWT) in Go](https://github.com/square/go-jose)
 - [Securing your gRPC Application, slides](https://talks.godoc.org/github.com/lpabon/go-slides/2019/nyc-meetup-july-18-2019.slide#1)
 - [Summary of auth method](https://testdriven.io/blog/web-authentication-methods/)
+- [casbin lib](https://github.com/casbin/casbin)
 
 [1]: https://github.com/autograde/quickfeed
 [2]: https://github.com/techschool/pcbook-go/tree/master/service
