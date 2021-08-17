@@ -1,14 +1,18 @@
-# Simulating credit-based incentive mechanism using cellular automata
+# Simulating Credit-based Incentive Schemes using Cellular Automata
 
 ## Administrative 
 
-- Supervisor: Hein Meling and Vahid Heidaripour Lakhani
+- Supervisor: Vahid Heidaripour Lakhani
+- Responsible Professor: Hein Meling
 
 ## Prerequisites
 
-- DAT520 Distribted Systems
-- being familiar with cellular automata
-- being familiar with wolfram language
+- DAT520 Distributed Systems
+
+## Learning Outcomes
+
+- become familiar with cellular automata
+- become familiar with Wolfram language
 
 ## Project Description
 
@@ -19,12 +23,12 @@ The main task of this project will be to implement a simulation tool using cellu
 ## Tasks / Milestones
 
 - Study the incentive scheme of the Swarm network
-- Study cellular automata with wolfram mathematica
-- Implement the simulation tool for Swarm storage network
+- Study cellular automata with Wolfram Mathematica
+- Implement the simulation tool for Swarm storage network in Mathematica (or optionally C++)
 
 ## Background on Distributed Storage Systems and incentives
 
-A few videos about Swram storage network and cellualr automata:
+A few videos about Swarm storage network and cellular automata:
 
 - [Ethereum Swarm](https://www.youtube.com/watch?v=VgTZV471WFM)
 - [Cellular Automata by Stephen Wolfram](https://www.youtube.com/watch?v=pMfrRFNCKhE)
