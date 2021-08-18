@@ -3,11 +3,13 @@
 ## Administrative 
 
 - Supervisor: Arian Baloochestani
-- Responsible Professor: Leander Jehl
+- Responsible Professor: Hein Meling
 
 ## Prerequisites
 
- - DAT650 Blockchains
+ - DAT530 Distributed systems
+ - Experience with Golang
+ - Recommended to take DAT650 Blockchain technology concurrently 
 
 ## Learning Outcomes
 
@@ -25,7 +27,11 @@ Recent works at UiS have implemented the HotStuff protocol in Golang. The curren
 
  - Study HotStuff paper carefully and understand the parts of its implementation that are needed for this project, e.g., [the crypto module](https://github.com/relab/hotstuff/tree/master/crypto) could be a starting point.
  - Study different signature aggregation mechanisms such as Handel, and learn how to work with their libraries in Golang.
- - Implement some of the signature aggregations in the HotStuff.
+ - Implement some of the signature aggregations in HotStuff.
+
+## Evaulation
+
+- The outcome of this project is measuring the impact of different signature aggregations in HotStuff implementation. We expect to analyze security and performance of HotStuff with different aggregation mechanisms and have a comparison. 
 
  ## Background
 
