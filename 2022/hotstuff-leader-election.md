@@ -1,4 +1,4 @@
-# Implementing Different signature aggregations in HotStuff
+# Implementing Different Leader Elections in HotStuff
 
 ## Administrative 
 
