@@ -67,7 +67,7 @@ Thus the process could be as follows:
 
 - [Paper: Homomorphic Signatures for Polynomial Functions](https://theory.stanford.edu/~dfreeman/papers/homsigs.pdf)
 - [Slides](https://theory.stanford.edu/~dfreeman/talks/homsigs-IBM.pdf)
-- [Reference implementation](https://github.com/jasonyjong/Homomorphic-Signatures-for-Polynomial-Functions)
 - [Applied Cryptography Book](https://toc.cryptobook.us/)
+- [Reference implementation (in C++)](https://github.com/jasonyjong/Homomorphic-Signatures-for-Polynomial-Functions)
 - [NTL Library (C++)](https://libntl.org/)
 - [Botan Library (C++)](https://github.com/randombit/botan)
