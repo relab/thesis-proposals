@@ -53,12 +53,12 @@ Thus the process could be as follows:
 - The loan agency requests to the server the rank (e.g., GPA) of a set of students that applied to the program;
 - The server can run some computation `r = f(G)` over the signed data to calculate the rank;
 - The server can then homomorphically derive a short signature `sig_R`, certifying that `r` is the correct output of the computation `f`;
-- The server sends `(f, r, sig_R)` to the loan agency;
+- The server publishes or sends `(f, r, sig_R)` to the loan agency;
 - The agency (or anyone) can now verify the tuple `(f, r, sig_R)` using Bob's public verification key without having to retrieve the entire underlying data;
 
 * Note: we consider that the UiS is untrusted in this case in the sense that Bob does not trust that UiS
-  will perform the rank correctly and would like to be able to verify the results himself. Further,
-  the loan agency is untrusted because Bob does not want to give them more information than they need
+  will perform the rank correctly and would like to be able to verify the results himself (since this process could be susceptible to frauds).
+  Further, the loan agency is untrusted because Bob does not want to give them more information than they need
   to select the candidates for the loan (e.g., an authentic GPA).
 
 ![example](homomorphic-sig.png)
