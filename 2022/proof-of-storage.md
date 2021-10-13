@@ -12,7 +12,7 @@
 
 Decentralized storage system backed by blockchain technology are swiftly emerging.
 The basis for these systems is to enable cheap, secure and reliable storage by having a network of peers pool their storage capacity together.
-The peers are incentived by token rewards on the blockchain.
+The peers are incentivized by token rewards on the blockchain.
 However, as these peers are untrusted, it remains an open challenge to create a verifiable proof of which data they store.
 
 The goal of this project, is to tackle this challenge by using Proof-of-Storage algorithms and implementing them in Swarm Bee.
