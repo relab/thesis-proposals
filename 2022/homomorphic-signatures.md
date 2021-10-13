@@ -32,7 +32,7 @@ Homomorphic signatures allow users to delegate computation to untrusted parties 
 This characteristic enables services over signed datasets without revealing more than necessary to the verifiers.
 
 For instance, consider the image below based on this [slides](#reading-material).
-In the following scenario, a student (e.g., Bob) graduates at the University of Stavanger and gets
+In the scenario below, a student (e.g., Bob) graduates at the University of Stavanger and gets
 a signed certificate. Later on, the student would like to apply for a loan for his master's in another country,
 but for that, he would need to submit his grades to the Educational Loan Fund somehow, so they would be able to
 check if the student fulfills the requirements to get the loan.
@@ -42,7 +42,8 @@ but this could expose more data than necessary. Further, it could also increase 
 and potentially increase the bureaucracy to manage access over all the sensible data.
 
 On the other hand, a solution using homomorphic encryption or homomorphic signatures could be used. In the latter,
-the Loan agency would only have access to the result of a
+the Loan agency would only have access to the result of a computation over the signed data, performed by the university.
+Thus the process could be as follows:
 
 - Bob receives his diploma and transcript of records (i.e., the grades dataset) from the UiS;
 - Bob signs his grades dataset `G = {g1, g2, ..., gn}` using his private signing key;
