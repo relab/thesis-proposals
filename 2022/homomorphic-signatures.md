@@ -52,7 +52,7 @@ Thus the process could be as follows:
 - Bob applies for a loan and provides his public key;
 - The loan agency requests to the server the rank (e.g., GPA) of a set of students that applied to the program;
 - The server can run some computation `r = f(G)` over the signed data to calculate the rank;
-- The server can then homomorphically derive a short signature σf `r`, certifying that `r` is the correct output of the computation `f`;
+- The server can then homomorphically derive a short signature `sig_R`, certifying that `r` is the correct output of the computation `f`;
 - The server sends `(f, r, sig_R)` to the loan agency;
 - The agency (or anyone) can now verify the tuple `(f, r, sig_R)` using Bob's public verification key without having to retrieve the entire underlying data;
 
