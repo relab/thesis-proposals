@@ -14,13 +14,13 @@
 
 ## Project Description
 
-The goal of this project is to implement the homomorphic signature scheme proposed by this [paper](#reading-material) 
+The goal of this project is to implement the homomorphic signature scheme proposed by this [paper](https://theory.stanford.edu/~dfreeman/papers/homsigs.pdf) 
 using the go programing language. You should be able to transform the specification into a library that can be used
 by future projects.
 
 ## Tasks / Milestones
 
-- Read and understand the signature scheme proposed in the [paper](#reading-material).
+- Read and understand the signature scheme proposed in the [paper](https://theory.stanford.edu/~dfreeman/papers/homsigs.pdf)).
 - Implement the proposed scheme in golang.
 - Evaluate the performance of the implementation.
 - Report on findings and lessons learned from the implementation, concluding on the feasibility of the developed signature
@@ -31,7 +31,7 @@ scheme for some real use cases (e.g. the academic use case mentioned in the pape
 Homomorphic signatures allow users to delegate computation to untrusted parties while ensuring the integrity of the results.
 This characteristic enables services over signed datasets without revealing more than necessary to the verifiers.
 
-For instance, consider the image below based on this [slides](#reading-material).
+For instance, consider the image below based on this [slides](https://theory.stanford.edu/~dfreeman/talks/homsigs-IBM.pdf).
 In the scenario below, a student (e.g., Bob) graduates at the University of Stavanger and gets
 a signed certificate. Later on, the student would like to apply for a loan for his master's in another country,
 but for that, he would need to submit his grades to the Educational Loan Fund somehow, so they would be able to
