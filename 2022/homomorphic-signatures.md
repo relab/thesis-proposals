@@ -34,12 +34,12 @@ This characteristic enables services over signed datasets without revealing more
 For instance, consider the image below based on this [slides](https://theory.stanford.edu/~dfreeman/talks/homsigs-IBM.pdf).
 In the scenario below, a student (e.g., Bob) graduates at the University of Stavanger and gets
 a signed certificate. Later on, the student would like to apply for a loan for his master's in another country,
-but for that, he would need to submit his grades to the Educational Loan Fund somehow, so they would be able to
+but for that, he would need to prove his grades to the Educational Loan Fund, so they would be able to
 check if the student fulfills the requirements to get the loan.
 
-That problem could be solved in many ways, the straightforward approach would give access to the Universities database to the loan agency,
-but this could expose more data than necessary. Further, it could also increase the chances of data leaks
-and potentially increase the bureaucracy to manage access over all the sensible data.
+The problem can be solved in many ways, the straightforward approach would confer access to the grades to the loan agency,
+but this could expose more data than necessary. Further, it could also increase the chances of data leaks and potentially 
+increase the bureaucracy in managing access to the sensible data of all candidates.
 
 On the other hand, a solution using homomorphic encryption or homomorphic signatures could be used. In the latter,
 the Loan agency would only have access to the result of a computation over the signed data, performed by the university.
