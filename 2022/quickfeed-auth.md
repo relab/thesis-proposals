@@ -35,13 +35,16 @@ We want to replace these per-method authorization checks with an interceptor-bas
 One crucial requirement is that specific methods can only be invoked if a user (student or teacher) is associated with (has signed up to) a particular course.
 Hence, it is not necessarily enough to distinguish users based on their roles as students and teachers.
 
-Finally, Quickfeed relies on an external proxy to handle `https` traffic, which must therefore handle certificate renewals via Let's encrypt.
-If time allows, the project should also investigate if it is possible to replace the external proxy (NGINX) or run it in the same process as the quickfeed server, e.g., by borrowing code from the [grpc-web-proxy][4].
+Finally, Quickfeed relies on an external Envoy proxy to handle `https` traffic, which must therefore handle certificate renewals via Let's encrypt.
+If time allows, the project should also investigate if it is possible to replace the Envoy proxy currently used or run it in the same process as the quickfeed server, e.g., by borrowing code from the [grpc-web-proxy][4].
 This should also allow implementing our own certificate renewal via the [Acme protocol][6] used by Let's encrypt.
 
 [This blog][7] is also relevant for this project.
 
 In general, the Quickfeed server should also be validated more extensively for security vulnerabilities.
+
+There is currently a prototype demonstrating the feasability of the above authorization approach.
+Hence, the project should build on the prototype and may be expanded to cover security pen-testing, if needed.
 
 The implementation language is mainly Go.
 
