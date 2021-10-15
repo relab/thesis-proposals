@@ -6,6 +6,7 @@
 |:------------------------------------------------------------------------------------------------------------|:---:|:----------------------|
 | [Gorums/HotStuff Reconfiguration](gorums-hotstuff-reconfig.md)                                              |  m  | w/Leander             |
 | [BBChain Blockchain based on Gorums/HotStuff](bbchain-block.md)                                             |  m  | w/Rodrigo and Leander |
+| [BBChain Homomorphic Signatures](homomorphic-signatures.md)                                                 |  m  | w/Rodrigo and Hein    |
 | [BBChain Graphical Interface for File Repair Algorithm](bbchain-file-repair.md)                             |  b  | w/Racin               |
 | [Quickfeed Security: Redesigned Authentication and Authorization Architecture](quickfeed-auth.md)           |  b  | w/Martin              |
 | [Quickfeed Database Revisited](quickfeed-db.md)                                                             |  b  | w/Erlend              |
