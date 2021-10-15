@@ -34,17 +34,19 @@ This library has served us well so far.
 However, we want to make the database transactions needed by Quickfeed even more robust with added tests and improved transaction support.
 To that end, this project has these milestones:
 
+- Review and revise the current database ER model/schema and database API for simplification and performance
 - Benchmark the database module in its current state
 - Upgrade to the most recent GORM version
 - Ensure that all database accesses use transactions to prevent inconsistencies
-- Implement the same [database API][2] using hand-written SQL statements
-- Discuss pro/con with ORM vs pure SQL queries, e.g., [see here][4], [here][5], and [here][6]
-- Review and revise the current database ER model/schema and database API for simplification and performance
 - Implement additional integration and robustness tests, e.g., ability to handle multiple concurrent transactions without compromising consistency
 - Benchmark the performance of the different variants of the database
 
 Depending on the project team's size, the project can be expanded in different directions, e.g., testing with different databases such as MySQL, PostgreSQL, or CockroachDB.
 Another direction could be implementing a NoSQL variant of the database schema and comparing it against the SQL variants.
+This extension would entail the following additional milestones:
+
+- Implement the same [database API][2] using hand-written SQL statements
+- Discuss pro/con with ORM vs pure SQL queries, e.g., [see here][4], [here][5], and [here][6]
 
 The project should also review the database schema and API from a security perspective to ensure that it does not leak sensitive information.
 Further, the project should also define policies, procedures, and mechanisms to handle database migration/schema changes.

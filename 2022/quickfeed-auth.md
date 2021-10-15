@@ -2,7 +2,7 @@
 
 ## Administrative
 
-- Supervisor: Hein Meling (with assistance from Martin Jaatun and Magnus Book)
+- Supervisor: Hein Meling
 - Group Composition: 2 or 3 students (or 1 for master's thesis)
 
 ## Prerequisites

@@ -23,7 +23,7 @@ On the frontend, we used the Typescript language and the React framework from Fa
 
 ## Project description
 
-In this project, the main goal is to add support for manual and automated feedback directly on a Pull Request on GitHub.
+In this project, the main goal is to add support for manual and automated feedback directly on a Pull Request in GitHub.
 Further, we also want support for creating issues directly on student repositories.
 Quickfeed has built a custom source control management (SCM) API for interacting with GitHub and possibly other source repositories.
 Quickfeed's `scm` package currently only supports GitHub via [Google's go-github library][2].
@@ -40,20 +40,10 @@ GitHub's Pull Request page can be extended with additional details via GitHub ac
 In this project, we envision providing more precise feedback on specific parts of the code via the Pull Request interface.
 Similarly, we can also create GitHub Issues directly on a student's repository, e.g., to support multiple-choice questions that Quickfeed can automatically grade.
 
-A partial GitLab implementation of the SCM API exists using [xanzy's go-gitlab library][3].
-We have focused our efforts on GitHub support so far. However, if time allows, a possible extension of this project is to:
-
-- Add support for GitLab
-
 The implementation language is mainly Go.
 
 ## Reading material
 
-- See [this issue](https://github.com/autograde/quickfeed/issues/360) on Quickfeed's issue tracker
-- Full [list of issues](https://github.com/autograde/quickfeed/issues)
-- [Get Started with Docker](https://www.docker.com/get-started)
-- [Container Networking is simple](https://iximiuz.com/en/posts/container-networking-is-simple/)
-- [Get Started with Ansible](https://www.ansible.com/resources/get-started)
 - Contact supervisor for more information.
 
 [1]: https://github.com/autograde/quickfeed
