@@ -3,6 +3,7 @@
 ## Administrative
 
 - Supervisor: Hein Meling and Racin Nygaard
+- Group Composition: 2 or 3 students
 
 ## Prerequisites
 

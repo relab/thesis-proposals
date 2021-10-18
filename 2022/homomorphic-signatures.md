@@ -3,6 +3,7 @@
 ## Administrative
 
 - Supervisors: Hein Meling and Rodrigo Saramago
+- Group Composition: 1 or 2 master students
 
 ## Prerequisites
 
