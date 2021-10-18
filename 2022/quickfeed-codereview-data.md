@@ -3,7 +3,7 @@
 ## Administrative
 
 - Supervisor: Hein Meling and Vinay Setty
-- Group Composition: 2 master students
+- Group Composition: 1 or 2 master students
 
 ## Prerequisites
 

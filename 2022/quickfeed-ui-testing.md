@@ -3,7 +3,7 @@
 ## Administrative
 
 - Supervisor: Hein Meling
-- Group Composition: 2 students
+- Group Composition: 2 or 3 students
 
 ## Prerequisites
 

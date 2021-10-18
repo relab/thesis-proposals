@@ -3,7 +3,7 @@
 ## Administrative
 
 - Supervisor: Hein Meling
-- Group Composition: 2 or 3 students
+- Group Composition: 2 or 3 students (or 1 for master's thesis)
 
 ## Prerequisites
 

@@ -1,14 +1,18 @@
 # Proving Redundancy In Decentralized Storage Networks
 
-### Supervisors: Hein Meling and Racin Nygaard
+## Administrative
 
-### Prerequisites: 
+- Supervisors: Hein Meling and Racin Nygaard
+- Group Composition: 1 or 2 master students
+
+### Prerequisites
+
 - Security and Vulnerability in Networks (DAT510)
 - Distributed systems (DAT520)
 - Go programming language
 - Excellent programming skills
 
-### Project Description: 
+### Project Description
 
 Decentralized storage system backed by blockchain technology are swiftly emerging.
 The basis for these systems is to enable cheap, secure and reliable storage by having a network of peers pool their storage capacity together.
@@ -21,7 +25,7 @@ By having a verifiable proofs of stored data, decentralized storage systems coul
 
 In addition, this work will be relevant for Snarl, which is a novel component developed at the University of Stavanger that can be used by end-users to protect their data stored in Distributed Storage Systems.
 
-### Proof-of-Storage: 
+### Proof-of-Storage
 
 Proving data possession by retrieval is problematic both in terms of network bandwidth, and hard-drive I/O. Instead, we can generate probabilistic proofs of possession without accessing the entire file.
 
@@ -29,8 +33,8 @@ The basis of such a probabilistic proof is to have the verifier **V** store a co
 
 A few examples of Proof of Storage algorithms are given in the Reading Material section. The algorithms offer different properties in terms of performance, accuracy and metadata requirements. By using homomorphic encryption, it is even possible to gain the *public verifiability* property, which refers to the ability of anyone, not just the data owner, to take on the role as the verifier. This is highly interesting for storage system powered by a blockchain, as the metadata could be appended to the ledger to empower all users to verify storage.
 
+### Tasks / Milestones
 
-### Tasks / Milestones: 
 - Literature review of Proof of Storage algorithms
 - Analyse different design alternatives and consider key features such as:
   - Public verifiability
@@ -50,7 +54,8 @@ A few videos to get an overview of the technology
 - [Ethereum Swarm](https://www.youtube.com/watch?v=VgTZV471WFM)
 - [Filecoin detailed](https://www.youtube.com/watch?v=P28aNAdZDi4)
   
-### Reading Material: 
+### Reading Material
+
 - [Proofs of Replicated Storage Without Timing Assumptions](https://eprint.iacr.org/2018/654.pdf)
 - [Proof of Replication](https://filecoin.io/proof-of-replication.pdf)
 - [Provable Data Possession at Untrusted Stores](https://eprint.iacr.org/2007/202.pdf)
