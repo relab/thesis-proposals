@@ -15,7 +15,7 @@
 
 ### Project Description
 
-Snarl is a novel component for improving the file availability in decentralized storage systems, such as [IPFS](https://ipfs.io/) and Swarm.
+Snarl is a novel component for improving the file availability in decentralized storage systems, such as [IPFS](https://ipfs.io/) and [Swarm](https://www.ethswarm.org/).
 Snarl was developed at the University of Stavanger and can be used by end-users to protect their data stored in Swarm or IPFS.
 
 To achieve its goal of high file availability, Snarl uses a sophisticated repair algorithm that requires that several goroutines communicate to exchange their state.
@@ -27,7 +27,7 @@ These elements represents data chunks in the storage system, and the edges betwe
 To repair missing data chunks, Snarl traverses the lattice to find redundancy chunks that can help to repair data chunks.
 
 The primary goal is to design the concurrency architecture for the repair algorithm over the lattice data structure.
-The secondary goal is to integrate the lattice-based repair algorithm with Snarl's Merkle tree structure to allow for efficient lookup.
+The secondary goal is to integrate the lattice-based repair algorithm with a decentralized storage system, where elements have a hierarchical dependency on retrieval due to being encoded in a Merkle tree.
 
 ### Tasks / Milestones
 
@@ -57,3 +57,4 @@ A few videos to get an overview of the technology
 - [Book of Swarm](https://www.ethswarm.org/The-Book-of-Swarm.pdf)
 - [Swarm Whitepaper](https://www.ethswarm.org/swarm-whitepaper.pdf)
 - [Snarl](##TODO)
+- [Alpha Entanglement Codes](https://arxiv.org/abs/1810.02974)
