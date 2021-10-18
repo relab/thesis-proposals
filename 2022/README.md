@@ -5,7 +5,7 @@
 If you are interested in any of these theses projects, feel free to contact me for additional information.
 
 | Project   | Title                                                                                                      | b/m  | Comment               |
-|:----------:------------------------------------------------------------------------------------------------------------|:----:|:----------------------|
+|:----------|:-----------------------------------------------------------------------------------------------------------|:----:|:----------------------|
 | BBChain   | [Revised Concurrency Architecture for Snarl](snarl-concurrency-arch.md)                                    |  m   | w/Racin               |
 | BBChain   | [Homomorphic Signatures](homomorphic-signatures.md)                                                        |  m   | w/Rodrigo and Hein    |
 | BBChain   | [Proving Redundancy In Decentralized Storage Networks](proof-of-storage.md)                                |  m   | w/Racin               |
