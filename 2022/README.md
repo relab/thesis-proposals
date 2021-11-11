@@ -15,9 +15,9 @@ If you are interested in any of these theses projects, feel free to contact me f
 | Quickfeed | [Security: Redesigned Authentication and Authorization Architecture](quickfeed-auth.md)                    |  m/b | w/Martin              |
 | Quickfeed | [Frontend Design Improvements and Robustness Testing](quickfeed-ui-testing.md)                             |  b   |                       |
 | Quickfeed | [DevOps: Improved Development and Continuous Deployment Facilities](quickfeed-devops.md)                   |  b   |                       |
+| Quickfeed | [Database Revisited](quickfeed-db.md)                                                                      |  b   | w/Erlend              |
 | DAT320    | [A Teaching Operating System based on Simulation...](teaching-os.md)                                       |  b   |                       |
 |           | **Backup Projects:**                                                                                       |      |                       |
 | BBChain   | [Gorums/HotStuff Reconfiguration](gorums-hotstuff-reconfig.md)                                             |  m   | w/Hanish              |
 | BBChain   | [Blockchain based on Gorums/HotStuff](bbchain-block.md)                                                    |  m   | w/Rodrigo and Leander |
-| Quickfeed | [Database Revisited](quickfeed-db.md)                                                                      |  b   | w/Erlend              |
 | Quickfeed | [Command Line Client for Teachers and Students](quickfeed-cli.md)                                          |  b   |                       |
