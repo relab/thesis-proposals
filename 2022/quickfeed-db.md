@@ -56,7 +56,7 @@ Another direction could be implementing a NoSQL variant of the database schema a
 This extension would entail the following additional milestones:
 
 - Implement the same [database API][2] using hand-written SQL statements
-- Discuss pro/con with ORM vs pure SQL queries, e.g., [see here][4], [here][5], and [here][6]
+- Discuss pro/con with ORM vs pure SQL queries, e.g., [see here][4], [here][5], [here][6], [here][9], and [here][10].
 - Discuss ideas for a generics-based ORM framework
 
 The project should also review the database schema and API from a security perspective to ensure that it does not leak sensitive information.
@@ -70,5 +70,7 @@ The implementation language is mainly Go and SQL.
 [4]: https://wozniak.ca/blog/2014/08/03/What-ORMs-have-taught-me-just-learn-SQL/
 [5]: https://github.com/xo/xo
 [6]: https://github.com/volatiletech/sqlboiler
+[9]: https://alanilling.com/exiting-the-vietnam-of-programming-our-journey-in-dropping-the-orm-in-golang-3ce7dff24a0f
+[10]: https://docs.sqlc.dev/en/stable/index.html
 [7]: https://entgo.io
 [8]: https://entgo.io/docs/grpc-intro
