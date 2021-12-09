@@ -21,7 +21,7 @@ You should be able to transform the specification into a library that can be use
 
 ## Tasks / Milestones
 
-- Read and understand the signature scheme proposed in the [paper](https://theory.stanford.edu/~dfreeman/papers/homsigs.pdf)).
+- Read and understand the signature scheme proposed in the [paper](https://theory.stanford.edu/~dfreeman/papers/homsigs.pdf).
 - Implement the proposed scheme in Go.
 - Evaluate the performance of the implementation.
 - Report on the findings and lessons learned from the implementation, concluding on the feasibility of the developed signature
