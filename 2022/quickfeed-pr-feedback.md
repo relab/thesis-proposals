@@ -33,7 +33,7 @@ This project has these milestones:
 - Review the existing SCM API and the GitHub implementation
 - Review Quickfeed's use of the SCM API to find possible simplifications of the SCM API
 - Expand the SCM API and corresponding Quickfeed implementation to support
-  - Pull Requests as described in [this issue][4]
+  - Pull Requests as described in [this issue][4] and [this issue][15]
   - Create GitHub Issues as described in [this issue][5]
 
 GitHub's Pull Request page can be extended with additional details via GitHub actions.
@@ -72,3 +72,4 @@ Course Project][11]
 [12]: https://docs.github.com/en/developers/webhooks-and-events/webhooks/about-webhooks
 [13]: https://github.com/AdilKhurshid/quickfeed/tree/github_enhancement
 [14]: https://github.com/quickfeed/quickfeed/blob/master/doc/teacher.md
+[15]: https://github.com/quickfeed/quickfeed/issues/458
