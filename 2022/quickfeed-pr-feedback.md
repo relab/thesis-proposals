@@ -44,10 +44,31 @@ The implementation language is mainly Go.
 
 ## Reading material
 
-- Contact supervisor for more information.
+- [Report about Pull Requests and Issues in QuickFeed][7]
+- [QuickFeed Issue Creation][13]
+- [QuickFeed User Manual for Teachers][14]
+- [Peer Code Review as Formative Assessment: A Case Study from a Database
+Course Project][11]
+- [GitHub Classroom][8]
 
-[1]: https://github.com/autograde/quickfeed
+## Related Tools and Libraries
+
+- [Reviewdog][6] seems interesting and related
+- [GitHub's command line tool][9]
+- [Google's client library for accessing the GitHub API v3][10]
+- [GitHub Webhooks][12]
+
+[1]: https://github.com/quickfeed/quickfeed
 [2]: https://github.com/google/go-github
 [3]: https://github.com/xanzy/go-gitlab
-[4]: https://github.com/autograde/quickfeed/issues/416
-[5]: https://github.com/autograde/quickfeed/issues/302
+[4]: https://github.com/quickfeed/quickfeed/issues/416
+[5]: https://github.com/quickfeed/quickfeed/issues/302
+[6]: https://github.com/reviewdog/reviewdog
+[7]: https://www.dropbox.com/s/h1tpw8425sp5clp/khurshidadil-pull-request-support.pdf?dl=0
+[8]: https://classroom.github.com/classrooms
+[9]: https://github.com/cli/cli
+[10]: https://github.com/google/go-github
+[11]: https://ojs.bibsys.no/index.php/NIK/article/view/902
+[12]: https://docs.github.com/en/developers/webhooks-and-events/webhooks/about-webhooks
+[13]: https://github.com/AdilKhurshid/quickfeed/tree/github_enhancement
+[14]: https://github.com/quickfeed/quickfeed/blob/master/doc/teacher.md
