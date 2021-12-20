@@ -27,7 +27,7 @@ To aid us in this work we want a graphical user interface with the following fea
 - Support different entanglement configurations
 - Generate plots
 
-The technology to be used for the user interface is flexible, but these two libraries may be worth a closer look: [gio](https://gioui.org) and [gonum/plot](https://github.com/gonum/plot).
+The technology to be used for the user interface is flexible, but these two libraries may be worth a closer look: [gio](https://gioui.org) and [gonum/plot](https://github.com/gonum/plot) and [ebiten](https://ebiten.org).
 
 ## Reading Material
 
@@ -36,3 +36,6 @@ The technology to be used for the user interface is flexible, but these two libr
 - [Filecoin](https://filecoin.io/)
 - [gio](https://gioui.org)
 - [gonum/plot](https://github.com/gonum/plot)
+- [ebiten](https://ebiten.org)
+- [ebiten src](https://github.com/hajimehoshi/ebiten)
+- [Existing application using ebiten](https://github.com/racin/entangle-visualizer/)
