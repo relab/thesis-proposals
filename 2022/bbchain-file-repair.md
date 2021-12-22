@@ -32,6 +32,7 @@ The technology to be used for the user interface is flexible, but these two libr
 ## Reading Material
 
 - [Alpha Entanglement Codes](https://arxiv.org/abs/1810.02974)
+- [Snarl paper](https://dl.acm.org/doi/abs/10.1145/3464298.3493397)
 - [Swarm](https://swarm.ethereum.org/)
 - [Filecoin](https://filecoin.io/)
 - [gio](https://gioui.org)
