@@ -5,12 +5,12 @@
 - Supervisor: Arian Baloochestani
 - Responsible Professor: Leander Jehl
 
-### Prerequisites
+## Prerequisites
 
 - Distributed systems (DAT520)
 - Recommended to take DAT650 Blockchain technology concurrently
 
-### Project Description
+## Project Description
 
 Committee-based blockchains are a popular varaient of blockchains in which a small group of processes are selected as the committee to decide over which block to append next to the chain.
 In most committee-baased blockchains, first a leader is elected to propose a new block. 
@@ -26,7 +26,7 @@ We would like to define some relevant properties and rank the processes fairly.
 The projects includes research (studying relevant papers and define the properties), and simulation (analyzing the proposed selection method with implementing it in python or go). 
 
 
-### Tasks / Milestones
+## Tasks / Milestones
 
 - Review literature about committee selection algorithms
 - Analyse the existing algorithms
@@ -35,6 +35,5 @@ The projects includes research (studying relevant papers and define the properti
 - Analyzing the results
 
 
-  
-### Reading Material
+## Reading Material
 
