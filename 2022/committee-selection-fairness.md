@@ -12,23 +12,24 @@
 
 ## Project Description
 
-Committee-based blockchains are a popular varaient of blockchains in which a small group of processes are selected as the committee to decide over which block to append next to the chain.
-In most committee-baased blockchains, first a leader is elected to propose a new block. 
+Committee-based blockchains are a popular type of blockchain in which a small group of processes is selected as the committee to decide over which block to append next to the chain. 
+In most committee-based blockchains, first, a leader is elected to propose a new block. 
 Then, other committee members verify the proposed block and vote for it in case the block is valid. 
-If the majority of the members vote for a proposed block, it is considered as approved. 
+If the majority of the members vote for a proposed block, it is considered approved.
 
-To incentivise the committee members we need a mechanism to reward them accordingly. 
+To incentivize the committee members, we need a mechanism to reward them accordingly. 
 Since only the committee members get rewarded, the committee selection algorithm needs to be fair, giving everyone a chance to get rewarded. 
-The selection mechanism can be based on different things such as processes stakes (money they freeze before starting the protocol).
+The selection mechanism can be based on different things, such as process stakes (money they freeze before starting the protocol).
 
-in [1] we  have designed different methods to reward and elect the leader to prevent some attacks. 
-We evaluated the methods through simulations written in python.
-The main task of the project is to design a fair selection mechanism for committe-based blockchains based on their past behaviour and you should extend the methods to additional methods for committee selection and extend the simulation framework to evaluate these methods. 
+In [1], we have designed different methods to reward and elect the leader to prevent some attacks. 
+We evaluated the methods through simulations written in python. 
+The project's main task is to design a fair selection mechanism for committee-based blockchains based on their past behavior. 
+You should extend the methods to additional committee selection methods and the simulation framework to evaluate these methods.
 
 
 ## Tasks / Milestones
 
-- Reading relevant paper
+- Reading relevant paper (Rebop)
 - Extending the paper for committee selection
 - Simulating the proposed algorithm in python or go
 - Analyzing the results
