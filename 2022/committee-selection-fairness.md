@@ -21,19 +21,18 @@ To incentivise the committee members we need a mechanism to reward them accordin
 Since only the committee members get rewarded, the committee selection algorithm needs to be fair, giving everyone a chance to get rewarded. 
 The selection mechanism can be based on different things such as processes stakes (money they freeze before starting the protocol).
 
-The main task of this project is to design a fair selection mechanism for committe-based blockchains based on their past behaviour. 
-We would like to define some relevant properties and rank the processes fairly. 
-The projects includes research (studying relevant papers and define the properties), and simulation (analyzing the proposed selection method with implementing it in python or go). 
+in [1] we  have designed different methods to reward and elect the leader to prevent some attacks. 
+We evaluated the methods through simulations written in python.
+The main task of the project is to design a fair selection mechanism for committe-based blockchains based on their past behaviour and you should extend the methods to additional methods for committee selection and extend the simulation framework to evaluate these methods. 
 
 
 ## Tasks / Milestones
 
-- Review literature about committee selection algorithms
-- Analyse the existing algorithms
-- Defining some fairness related properties
+- Reading relevant paper
+- Extending the paper for committee selection
 - Simulating the proposed algorithm in python or go
 - Analyzing the results
 
 
 ## Reading Material
-
+[1] Rebop: Reputation-based Incentives in Committee-based Blockchains (on demand)
