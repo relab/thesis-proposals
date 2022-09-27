@@ -9,7 +9,8 @@
 | **Incentives**   |                                               |       |             |                            |
 | Incentives       | Rebop committee selection                     |  b/m  | with Arian  |                            |
 | Incentives       | Tangle 2 simulation framework                 |   b   | with Arian  |                            |
-| Incentives       | Swarm simulator                               |   b   | with Vahid  | larger, faster, louder     |
+| Incentives       | Swarm simulator in Go                         |   b   | with Vahid  | larger, faster, louder     |
+| Incentives       | Swarm storage incentives                      |   m   | with Vahid  |                            |
 | **TEE**          |                                               |       |             |                            |
 | TEE              | Contract box in EGo                           |  b/m  |             | SGX                        |
 | TEE              | Blockchain log in GoTEE                       |  b/m  |             | ArmTZ, not sure            |
