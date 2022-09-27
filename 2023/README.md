@@ -1,21 +1,21 @@
 # Master and bachelor theses
 
 ## Leander's theses
-| Topic          | Title                         |  b/m  | Comment     | Assigned to                |
-| :------------- | :---------------------------- | :---: | :---------- | -------------------------- |
-| **HotStuff**   |                               |       |             |                            |
-| HotStuff   | Kauri                         |   b   | with Hanish |                            |
-| HotStuff       | SmartContract                 |  b/m  |             | port smart contract engine |
-| **Incentives** |                               |       |             |                            |
-| Incentives | Rebop committee selection     |   b/m   | with Arian  |                            |
-| Incentives     | Tangle 2 simulation framework |   b   | with Arian  |                            |
-| Incentives     | Swarm simulator               |   b   | with Vahid  | larger, faster, louder     |
-| **TEE**        |                               |       |             |                            |
-| TEE | Contract box in EGo | b/m | | SGX |
-| TEE | Blockchain log in GoTEE | b/m | | ArmTZ, not sure |
-| **Formal Tools** | |                               |       |             |
-| Formal Tools | HotStuff-Tree in Daphne | b | | Generate Go code |
-| Formal Tools | Equilibria Analysis | m | with Arian | |
+| Topic            | Title                                         |  b/m  | Comment     | Assigned to                |
+| :--------------- | :-------------------------------------------- | :---: | :---------- | -------------------------- |
+| **HotStuff**     |                                               |       |             |                            |
+| HotStuff         | Kauri                                         |   b   | with Hanish |                            |
+| HotStuff         | SmartContract                                 |  b/m  |             | port smart contract engine |
+| **Incentives**   |                                               |       |             |                            |
+| Incentives       | Rebop committee selection                     |  b/m  | with Arian  |                            |
+| Incentives       | Tangle 2 simulation framework                 |   b   | with Arian  |                            |
+| Incentives       | Swarm simulator                               |   b   | with Vahid  | larger, faster, louder     |
+| **TEE**          |                                               |       |             |                            |
+| TEE              | Contract box in EGo                           |  b/m  |             | SGX                        |
+| TEE              | Blockchain log in GoTEE                       |  b/m  |             | ArmTZ, not sure            |
+| **Formal Tools** |                                               |       |             |                            |
+| Formal Tools     | HotStuff-Tree in Daphne                       |   b   |             | Generate Go code           |
+| Formal Tools     | [Equilibria Analysis](equilibria-analysis.md) |   m   | with Arian  |                            |
 
 
 

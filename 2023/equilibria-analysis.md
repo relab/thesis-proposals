@@ -6,8 +6,7 @@
 
 ## Prerequisites
 
-- DAT520 Distributed Systems
-
+- DAT530 Discrete Simulation and Performance Analysis
 
 ## Project Description
 
@@ -17,13 +16,13 @@ The rewarding mechanisms typically aim to establish Nash-Equilibria, i.e. situat
 
 The goal for this project is to investigate the use of established tools for the formal analysis of distributed algorithms, to also analyze reward systems. The goal of such an analysis is to both verify the existence of a predefined Nash-Equilibrium, as well as the systematic search for potentially unknown Equilibria.
 
-You will work on a simple sample of a reward mechanism from the literature, however, the goal is to establish methods easily transferable to other algorithms.
+You will work on a simple sample of a reward mechanism from the literature, however, the goal is to establish methods easily transferable to other algorithms. You can also build on an existing TLA+ model.
 
 
 
 ## Tasks / Milestones
 
-- Model the given reward mechanism in 2 of the tools.
+- Model the given reward mechanism in 2 of the tools
 - Model the equilibrium condition
 - Verify a well known Equilibrium for given instantiations of the model, comparing running times of different tools
 - (optional) design method to search for existance, or verify absence of Equilibria.
