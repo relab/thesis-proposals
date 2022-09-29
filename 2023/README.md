@@ -1,23 +1,24 @@
 # Master and bachelor theses
 
 ## Leander's theses
-| Topic            | Title                                         |  b/m  | Comment     | Assigned to                |
-| :--------------- | :-------------------------------------------- | :---: | :---------- | -------------------------- |
-| **HotStuff**     |                                               |       |             |                            |
-| HotStuff         | Kauri                                         |   b   | with Hanish |                            |
-| HotStuff         | SmartContract                                 |  b/m  |             | port smart contract engine |
-| RPCStuff         | RPC based HotStuff                            |   m   |             | diversity                  |
-| **Incentives**   |                                               |       |             |                            |
-| Incentives       | Rebop committee selection                     |  b/m  | with Arian  |                            |
-| Incentives       | Tangle 2 simulation framework                 |   b   | with Arian  |                            |
-| Incentives       | [Swarm simulator in Go](swarm-simulator-go.md)|   b   | with Vahid  | larger, faster, louder     |
-| Incentives       | Swarm storage incentives                      |   m   | with Vahid  |                            |
-| **TEE**          |                                               |       |             |                            |
-| TEE              | Contract box in EGo                           |  b/m  |             | SGX                        |
-| TEE              | ContractBox in Rust on RPi                    |   m   |             | ArmTZ, not sure            |
-| **Formal Tools** |                                               |       |             |                            |
-| Formal Tools     | HotStuff-Tree in Daphne                       |   b   |             | Generate Go code           |
-| Formal Tools     | [Equilibria Analysis](equilibria-analysis.md) |   m   | with Arian  |                            |
+| Topic            | Title                                           |  b/m  | Comment     | Assigned to                |
+| :--------------- | :---------------------------------------------- | :---: | :---------- | -------------------------- |
+| **HotStuff**     |                                                 |       |             |                            |
+| HotStuff         | Kauri                                           |   b   | with Hanish |                            |
+| HotStuff         | SmartContract                                   |  b/m  |             | port smart contract engine |
+| HotStuff         | Delphi evaluation                               |   b   |             |                            |
+| RPCStuff         | RPC based HotStuff                              |   m   |             | diversity                  |
+| **Incentives**   |                                                 |       |             |                            |
+| Incentives       | [Rebop committee selection](rebop-committee.md) |  b/m  | with Arian  |                            |
+| Incentives       | Tangle 2 simulation framework                   |   b   | with Arian  |                            |
+| Incentives       | [Swarm simulator in Go](swarm-simulator-go.md)  |   b   | with Vahid  | larger, faster, louder     |
+| Incentives       | Swarm storage incentives                        |   m   | with Vahid  |                            |
+| **TEE**          |                                                 |       |             |                            |
+| TEE              | Contract box in EGo                             |  b/m  |             | SGX                        |
+| TEE              | ContractBox in Rust on RPi                      |   m   |             | ArmTZ, not sure            |
+| **Formal Tools** |                                                 |       |             |                            |
+| Formal Tools     | HotStuff-Tree in Daphne                         |   b   |             | Generate Go code           |
+| Formal Tools     | [Equilibria Analysis](equilibria-analysis.md)   |   m   | with Arian  |                            |
 
 
 
