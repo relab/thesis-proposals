@@ -2,7 +2,7 @@
 
 ## Administrative
 
-- Supervisor: Leander Jehl and Arian Balouchestani
+- Supervisor: Leander Jehl and Arian Baloochestani
 
 ## Prerequisites
 
@@ -28,3 +28,7 @@ You will work on a simple sample of a reward mechanism from the literature, howe
 - (optional) design method to search for existance, or verify absence of Equilibria.
 
 ## Reading material
+
+[1] Rational behavior in committee-based blockchains
+
+[2] Verifying Hyperproperties With TLA
