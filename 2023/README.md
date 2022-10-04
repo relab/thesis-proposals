@@ -10,7 +10,7 @@
 | RPCStuff         | RPC based HotStuff                              |   m   |             | diversity                  |
 | **Incentives**   |                                                 |       |             |                            |
 | Incentives       | [Rebop committee selection](rebop-committee.md) |  b/m  | with Arian  |                            |
-| Incentives       | Tangle 2 simulation framework                   |   b   | with Arian  |                            |
+| Incentives       | [Tangle 2 simulation framework](tangle-simulation.md) | b   | with Arian  |                        |
 | Incentives       | [Swarm simulator in Go](swarm-simulator-go.md)  |   b   | with Vahid  | larger, faster, louder     |
 | Incentives       | Swarm storage incentives                        |   m   | with Vahid  |                            |
 | **TEE**          |                                                 |       |             |                            |
