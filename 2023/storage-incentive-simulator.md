@@ -11,11 +11,13 @@
 
 ## Background
 
-Decentralized storage networks have developed over the past two decades with the idea of being an alternative to centralized data silos. This idea solves current problems in this context, such as **single point of failure** and **censorship** differently. There is no single node in the network that keeps all the data and data is distributed all over the network. Swarm storage network is one of them that tries to offer decentralized storage capacity to users. In Swarm, nodes share their storage capacity with others, store their data (in form of small chunks with 4KB size) and receive a reward for it. The financial incentive is the primary motivation to encourage peers to participate in the network and it is expected that it ameliorate the free-riding behavior.
+Decentralized storage networks have developed over the past two decades with the idea of being an alternative to centralized data silos. 
+This idea solves current problems like the **single point of failure** and possible **censorship** differently. There is no single node in the network that keeps all the data, and data is distributed all over the network. 
+The Swarm storage network is one such system that tries to offer decentralized storage capacity to users. In Swarm, nodes share their storage capacity with others, store their data (in the form of small chunks with 4KB size), and receive a reward for it. The financial incentive is the primary motivation to encourage peers to participate in the network, and it is expected to prevent free-riding.
 
 ## Project Description
 
-The storage incentive in the Swarm network is quite new and it has a lot of features for exploration. To that end, the goal for this project is to build a simulation tool that will measure the fairness of the reward model with changing different parameters. Choosing the programming language and tools to do the simulation is up to you.
+The scheme for storage incentives in the Swarm network is quite new and has many features for exploration. This project aims to build a simulation tool that will measure the fairness of the reward model by changing different parameters. Choosing the programming language and tools to do the simulation is up to you.
 
 ## Tasks / Milestones
 
