@@ -6,7 +6,6 @@
 
 ## Prerequisites
 
-- DAT520 Distributed systems
 - DAT650 Blockchain technology (Recommended)
 
 ## Project Description
@@ -18,7 +17,7 @@ If the majority of the members vote for a proposed block, it is considered appro
 
 To incentivize the committee members, we need a mechanism to reward them accordingly. 
 Since only the committee members get rewarded, the committee selection algorithm needs to be fair, giving everyone a chance to get rewarded. 
-The selection mechanism can be based on different things, such as process stakes (money they freeze before starting the protocol).
+The selection mechanism can be based on different things, such as process stakes (money they freeze before starting the protocol), or reputation.
 
 In [1], we have designed different methods to reward and elect the leader to prevent some attacks. 
 We evaluated the methods through simulations written in python. 

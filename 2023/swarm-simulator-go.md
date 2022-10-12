@@ -6,25 +6,32 @@
 
 ## Prerequisites
 
-- Go programming
+- Excellent Go programming skills
+
+## Background
+
+Incentives are the moving force behind decentralized p2p networks that encourage nodes to participate in such networks and share their resources with others. As we can see from the literature, networks without proper incentives suffer from problems such as free-riding and churn. Thanks to the blockchain technology and cryptocurrencies, token-based incentives are now popular for these networks. Many parameters are involved in shaping a token-based incentive, and it is difficult to find the best combination that is fair while it can not be misused. To that end, building a simulation tool to try different parameters makes sense.
+
+We developed a simulation tool using the python programming language and the cadCAD simulation engine, to understand the bandwidth incentives of the Swarm storage network.
 
 ## Project Description
 
-Incentives are the moving force behind decentralized p2p networks that encourage nodes to participate in such networks and share their resources with others. As we can see from the literature, networks without proper incentives suffer from problems such as free-riding and churn. Thanks to the blockchain technology and cryptocurrencies, token-based incentives are now popular for these networks. Many parameters are involved in shaping a token-based incentive, and it is difficult to find the best combination that is fair while it can not be misused. To that end, building a simulation tool to try different parameters makes sense.
-At the moment we have a simulation tool using the python programming language and the cadCAD simulation engine, to understand the bandwidth incentives of the Swarm storage network.
+Interpreted and weakly typed scripting languages like Python are well suited for fast prototyping, but lack the performance of compiled languages.
 
-The goal for this project is to build the same simulation tool with Go programming language and compare it with the current python version on some metrics such as time and space complexity. The idea is to have a better version of the simulation tool which is faster and can handle bigger networks.
+The goal for this project is to redesign an existing simulation tool, written in Python, in the Go programming language and compare it with the current python version on some metrics such as time and space complexity. The idea is to have a better version of the simulation tool which is faster and can handle bigger networks.
 
-It is ideal to have a tool in this structure, where you can separately run the logic in the `Policy functions` layer and update the network in the `Update functions` layer.
+Optionally, you can explore possibilities to utilize concurrency to further speed up simulation runs.
 
-![structure](./images/simulator-structure.png)
+<!-- It is ideal to have a tool in this structure, where you can separately run the logic in the `Policy functions` layer and update the network in the `Update functions` layer.
+
+![structure](./images/simulator-structure.png) -->
 
 ## Tasks / Milestones
 
-- Reading relevant papers
+- Understand the existing simulation framework based on background from research papers
 - Understand the Kademlia overlay network
-- Simulate the p2p network based on Kademlia
-- Add bandwidth incentive layer
+- Reimplement the existing simulation tool in go
+- Evaluate performance of the redesign
 
 ## Reading material
 

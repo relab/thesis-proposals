@@ -6,7 +6,7 @@
 | **HotStuff**     |                                                       |       |       |             |                            |
 | HotStuff         | DOS testing                                           |   b   |   +   | with Hanish |                            |
 | HotStuff         | SmartContract                                         |  b/m  |   -   |             | port smart contract engine |
-| HotStuff         | Delphi evaluation                                     |   b   |   +   |             |                            |
+| HotStuff         | [Delphi evaluation](delphi-evaluation.md)             |   b   |   +   |             |                            |
 | RPCStuff         | RPC based HotStuff                                    |   m   |       |             | diversity                  |
 | **Incentives**   |                                                       |       |       |             |                            |
 | Incentives       | [Rebop committee selection](rebop-committee.md)       |  b/m  |   +   | with Arian  |                            |
@@ -19,7 +19,7 @@
 | **Formal Tools** |                                                       |       |       |             |                            |
 | Formal Tools     | HotStuff-Tree in Daphne                               |   b   |   -   |             | Generate Go code           |
 | Formal Tools     | [Equilibria Analysis](equilibria-analysis.md)         |   m   |   +   | with Arian  |                            |
-| Formal Tools     | [Chaine HotStuff in Ivy](hotStufIvy.md)               |   m   |   +   |             |                            |
+| Formal Tools     | [Chained HotStuff in Ivy](hotStufIvy.md)              |   m   |   +   |             |                            |
 
 
 

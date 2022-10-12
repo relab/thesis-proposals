@@ -12,7 +12,7 @@
 ## Project Description
 
 Tangle is the underlying technology for IOTA, one of the most popular cryptocurrencies used for IoT devices. 
-Unlike blockchains, Tangle provides consensus based on a adirected acyclic graph (DAG). 
+Unlike blockchains, Tangle provides consensus based on a directed acyclic graph (DAG). 
 In the first version of Tangle, each node that issues a transaction needs to verify and approve two other transactions. 
 Then, if a transaction proved to be invalid, the transactions approving that transaction were also discarded. 
 In tangle 2, authors did some changes to the initial protocol to tackle the mentioned problem.
