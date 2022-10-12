@@ -20,9 +20,11 @@ Since only the committee members get rewarded, the committee selection algorithm
 The selection mechanism can be based on different things, such as process stakes (money they freeze before starting the protocol), or reputation.
 
 In [1], we have designed different methods to reward and elect the leader to prevent some attacks. 
+The method uses leader election based on the leader's reputation.
 We evaluated the methods through simulations written in python. 
-The project's main task is to design a fair selection mechanism for committee-based blockchains based on their past behavior. 
-You should extend the simulation framework to evaluate other methods.
+
+The goal for this project is to evaluate the use of reputation based selection as introduced in [1] to select committee members.
+Your task is to extend the existing simulation framework to include committee selection and evaluate its fairness under a range of different attacks.
 
 
 ## Tasks / Milestones
