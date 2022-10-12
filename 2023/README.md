@@ -4,7 +4,7 @@
 | Topic            | Title                                                 |  b/m  | prio  | Comment     | Assigned to                |
 | :--------------- | :---------------------------------------------------- | :---: | :---: | :---------- | -------------------------- |
 | **HotStuff**     |                                                       |       |       |             |                            |
-| HotStuff         | DOS testing                                           |   b   |   +   | with Hanish |                            |
+| HotStuff         | [DOS testing](dos-testing.md)                         |   b   |   +   | with Hanish |                            |
 | HotStuff         | [SmartContract](hotstuff-evm.md)                      |   m   |   -   |             | port smart contract engine |
 | HotStuff         | [Delphi evaluation](delphi-evaluation.md)             |   b   |   +   |             |                            |
 | RPCStuff         | [RPC based HotStuff](rpc-hotstuff.md)                 |   m   |   -   |             | diversity                  |
