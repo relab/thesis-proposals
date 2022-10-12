@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-- DAT650 Blockchain technology (Recommended)
+- Python/Go programming
 
 ## Project Description
 
@@ -22,14 +22,14 @@ The selection mechanism can be based on different things, such as process stakes
 In [1], we have designed different methods to reward and elect the leader to prevent some attacks. 
 We evaluated the methods through simulations written in python. 
 The project's main task is to design a fair selection mechanism for committee-based blockchains based on their past behavior. 
-You should extend the methods to additional committee selection methods and the simulation framework to evaluate these methods.
+You should extend the simulation framework to evaluate other methods.
 
 
 ## Tasks / Milestones
 
 - Reading relevant paper (Rebop)
-- Extending the paper for committee selection by defining new properties 
-- Simulating the proposed algorithm in python or go
+- Extending the simulations for committee selection 
+- Running the simulation and get proper outputs (charts, graphs, etc)
 - Analyzing the results
 
 
