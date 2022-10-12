@@ -26,7 +26,7 @@ You will work on a simple sample of a reward mechanism from the literature, howe
 - Extract state graph from the TLA toolbox and parse with external tool
 - Model the equilibrium condition 
 - Verify a well known Equilibrium for given instantiations of the model, comparing running times of the external tool with verification inside the toolbox
-- Design method to search for existance, or verify absence of Equilibria in external tool
+- Design method to search for existence, or verify absence of Equilibria in external tool
 
 ## Reading material
 
