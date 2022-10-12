@@ -17,7 +17,7 @@ This implementation is build on the GRPC rpc layer.
 
 ## Project Description
 
-The goal of this thesis is to design a testing framework that evaluates the ability of a relab/hotstuff node to receive arbitrary input from other participants. 
+The goal of this thesis is to design a testing framework that evaluates the ability of a relab/hotstuff replicas to withstand Denial of Service attacks (DOS), especially, to handle arbitrary input from other participants. 
 To this end, the tool should introduce arbitrary changes to the Protobuf messages created by a relab/hotstuff replica, feed these into other replicas and see if they crash.
 Optionally, the resulting tool should be included in the CI pipeline of relab/hotstuff.
 
