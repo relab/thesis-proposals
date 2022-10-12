@@ -12,7 +12,7 @@
 | Incentives       | [Rebop committee selection](rebop-committee.md)       |   b   |   +   | with Arian  |                            |
 | Incentives       | [Tangle 2 simulation framework](tangle-simulation.md) |   m   |   +   | with Arian  |                            |
 | Incentives       | [Swarm simulator in Go](swarm-simulator-go.md)        |   b   |   +   | with Vahid  | larger, faster, louder     |
-| Incentives       | Swarm storage incentives                              |   m   |       | with Vahid  |                            |
+| Incentives       | [Swarm storage incentives](storage-incentive-simulator.md)                              |   m   |       | with Vahid  |                            |
 | **TEE**          |                                                       |       |       |             |                            |
 | TEE              | [Contract box in EGo](ego-contractBox.md)             |   b   |       |             | SGX                        |
 | TEE              | ContractBox in Rust on RPi                            |   m   |   -   |             | ArmTZ, not sure            |
