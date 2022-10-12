@@ -14,10 +14,10 @@
 | Incentives       | [Swarm simulator in Go](swarm-simulator-go.md)        |   b   |   +   | with Vahid  | larger, faster, louder     |
 | Incentives       | Swarm storage incentives                              |   m   |       | with Vahid  |                            |
 | **TEE**          |                                                       |       |       |             |                            |
-| TEE              | Contract box in EGo                                   |   b   |       |             | SGX                        |
+| TEE              | [Contract box in EGo](ego-contractBox.md)             |   b   |       |             | SGX                        |
 | TEE              | ContractBox in Rust on RPi                            |   m   |  --   |             | ArmTZ, not sure            |
 | **Formal Tools** |                                                       |       |       |             |                            |
-| Formal Tools     | HotStuff-Tree in Daphne                               |   b   |   -   |             | Generate Go code           |
+| Formal Tools     | [HotStuff-Tree in Dafny](hs-tree-daphne.md)                               |   b   |   -   |             | Generate Go code           |
 | Formal Tools     | [Equilibria Analysis](equilibria-analysis.md)         |   m   |   +   | with Arian  |                            |
 | Formal Tools     | [Chained HotStuff in Ivy](hotStufIvy.md)              |   m   |   +   |             |                            |
 
