@@ -1,6 +1,16 @@
 # Master and bachelor theses
 
+
 ## Leander's theses
+
+Her en en liste med mulige bachelor og master oppgaver.
+Prosjektene er beskrevet i engelsk, men oppgave kan også skrives på norsk.
+Ta gjerne kontakt på mail eller kom innom kontoret om du har spørmål.
+
+Here is a list of possible thesis topics for 2023.
+If you have questions to these projects please contact me by email or come by my office.
+
+
 | Topic            | Title                                                      |  b/m  | prio  | Comment     | Assigned to                |
 | :--------------- | :--------------------------------------------------------- | :---: | :---: | :---------- | -------------------------- |
 | **HotStuff**     |                                                            |       |       |             |                            |
@@ -21,19 +31,3 @@
 | Formal Tools     | [Equilibria Analysis](equilibria-analysis.md)              |   m   |   +   | with Arian  |                            |
 | Formal Tools     | [Chained HotStuff in Ivy](hotStufIvy.md)                   |   m   |   +   |             |                            |
 
-
-
-## Hein's theses
-
-If you are interested in any of these theses projects, feel free to contact me for additional information.
-
-| Project   | Title                                                                                             |  b/m  | Comment               | Assigned to |
-| :-------- | :------------------------------------------------------------------------------------------------ | :---: | :-------------------- | ----------- |
-|           | **Backup Projects:**                                                                              |       |                       |             |
-| BBChain   | [Revised Concurrency Architecture for Snarl](snarl-concurrency-arch.md)                           |   m   | w/Racin               |             |
-| BBChain   | [Gorums/HotStuff Reconfiguration](gorums-hotstuff-reconfig.md)                                    |   m   | w/Hanish              |             |
-| BBChain   | [Blockchain based on Gorums/HotStuff](bbchain-block.md)                                           |   m   | w/Rodrigo and Leander |             |
-| Quickfeed | [Code Review Data Collection and Machine Learning Model Generation](quickfeed-codereview-data.md) |   m   | Data science          |             |
-| Quickfeed | [Command Line Client for Teachers and Students](quickfeed-cli.md)                                 |   b   |                       |             |
-| Quickfeed | [DevOps: Improved Development and Continuous Deployment Facilities](quickfeed-devops.md)          |   b   |                       |             |
-| Quickfeed | [Database Revisited](quickfeed-db.md)                                                             |   b   | w/Erlend              |             |
