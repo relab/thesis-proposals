@@ -19,12 +19,12 @@ If you have questions to these projects please contact me by email or come by my
 | HotStuff         | [SmartContract](hotstuff-evm.md)                           |   m   |   -   |             | port smart contract engine |
 | RPCStuff         | [RPC based HotStuff](rpc-hotstuff.md)                      |   m   |   -   |             | diversity                  |
 | **Incentives**   |                                                            |       |       |             |                            |
-| Incentives       | [Rebop committee selection](rebop-committee.md)            |   b   |   +   | with Arian  |                            |
-| Incentives       | [Tangle 2 simulation framework](tangle-simulation.md)      |   m   |   +   | with Arian  |                            |
-| Incentives       | [Swarm simulator in Go](swarm-simulator-go.md)             |   b   |   +   | with Vahid  | larger, faster, louder     |
+| Incentives       | [Rebop committee selection](rebop-committee.md)            |   b   |   +   | with Arian  | assigned                   |
+| Incentives       | [Tangle 2 simulation framework](tangle-simulation.md)      |   m   |   +   | with Arian  | assigned                   |
+| Incentives       | [Swarm simulator in Go](swarm-simulator-go.md)             |   b   |   +   | with Vahid  | assigned                   |
 | Incentives       | [Swarm storage incentives](storage-incentive-simulator.md) |   m   |       | with Vahid  |                            |
 | **TEE**          |                                                            |       |       |             |                            |
-| TEE              | [Contract box in EGo](ego-contractBox.md)                  |   b   |       |             | SGX                        |
+| TEE              | [Contract box in EGo](ego-contractBox.md)                  |   b   |       |             | assigned                   |
 | TEE              | ContractBox in Rust on RPi                                 |   m   |   -   |             | ArmTZ, not sure            |
 | **Formal Tools** |                                                            |       |       |             |                            |
 | Formal Tools     | [HotStuff-Tree in Dafny](hs-tree-daphne.md)                |   b   |   +   |             | Generate Go code           |
