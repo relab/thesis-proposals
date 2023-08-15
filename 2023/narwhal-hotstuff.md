@@ -46,8 +46,8 @@ We aim to implement this mempool in our hotstuff framework to compare the benefi
 
 ## Reading materials
 
-[1] [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/pdf/2105.11827.pdf)
-[2] [Yin, Maofan, et al. "Hotstuff: Bft consensus with linearity and responsiveness.](https://dl.acm.org/doi/pdf/10.1145/3293611.3331591)
-[3] [Bullshark: DAG BFT Protocols Made Practical](https://arxiv.org/abs/2201.05677)
-[4] [relab/hotstuff](https://github.com/relab/hotstuff)
-[5] [relab/gorums](https://github.com/relab/gorums)
+- [1] [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/pdf/2105.11827.pdf)
+- [2] [Yin, Maofan, et al. "Hotstuff: Bft consensus with linearity and responsiveness.](https://dl.acm.org/doi/pdf/10.1145/3293611.3331591)
+- [3] [Bullshark: DAG BFT Protocols Made Practical](https://arxiv.org/abs/2201.05677)
+- [4] [relab/hotstuff](https://github.com/relab/hotstuff)
+- [5] [relab/gorums](https://github.com/relab/gorums)
