@@ -2,7 +2,7 @@
 
 ## Administrative
 
-- Supervisors: Leander Jehl, Arian Baloochestani
+- Supervisors: Leander Jehl and Arian Baloochestani
 
 ## Prerequisites
 
@@ -22,12 +22,11 @@ These nodes include the full node which is in charge of voting and proposing blo
 
 There are previous studies on how to deploy Ethereum nodes on a private network using Proof-of-Work, and can be used as a starting point. 
 
-
 ## Tasks / Milestones
 
 - Reading previous thesis on deploying ethereum nodes using Proof-of-Work
-- investigate how to deploy using Proof-of-Stake
-- Deploy nodes on local machine
+- investigate how to deploy Ethereum nodes using Proof-of-Stake
+- Deploy nodes on a local machine
 - Deploy nodes on the cluster
 - Analysis
 
@@ -36,5 +35,3 @@ There are previous studies on how to deploy Ethereum nodes on a private network 
 [1] https://ethereum.org/en/developers/docs/intro-to-ethereum/
 
 [2] https://ethereum.org/en/developers/docs/nodes-and-clients/
-
-[3] Preben thesis
