@@ -11,22 +11,22 @@
 ## Project Description
 
 Distributed algorithms are notoriously difficult to get right, and different tools (TLA/Petri nets) have been proposed to specify and verify the correctness of such algorithms in the presence of failure. 
-In the area of blockchain and decentralized systems, complex distributed algorithms are enhanced with reward systems, that encourage participation and correct behavior.
-The rewarding mechanisms typically aim to establish Nash-Equilibria, i.e. situations, where any node, that unilaterally deviates from the protocol, receives a reduced reward.
+In the area of blockchain and decentralized systems, complex distributed algorithms are enhanced with reward systems that encourage participation and correct behavior.
+The rewarding mechanisms typically aim to establish Nash-Equilibria, i.e. situations where any node that unilaterally deviates from the protocol, receives a reduced reward.
 
-The goal for this project is to build a tool, that can analyse reward systems in TLA+ models.
+The goal of this project is to build a tool that can analyze reward systems in TLA+ models.
 The goal of such an analysis is to both verify the existence of a predefined Nash-Equilibrium, as well as the systematic search for potentially unknown Equilibria.
-Since TLA+ is only partially suited for such an analysis, in this project, we will explore the possibility to extract a model from the TLA toolbox and process it using external tools.
+Since TLA+ is only partially suited for such an analysis, in this project, we will explore the possibility of extracting a model from the TLA toolbox and processing it using external tools.
 
-You will work on a simple sample of a reward mechanism from the literature, however, the goal is to establish methods easily transferable to other algorithms. You can also build on an existing TLA+ model.
+You will work on a simple sample of a reward mechanism from the literature; however, the goal is to establish methods easily transferable to other algorithms. You can also build on an existing TLA+ model.
 
 ## Tasks / Milestones
 
 - Study the existing TLA+ model
-- Extract state graph from the TLA toolbox and parse with external tool
+- Extract the state graph from the TLA toolbox and parse it with an external tool
 - Model the equilibrium condition 
-- Verify a well known Equilibrium for given instantiations of the model, comparing running times of the external tool with verification inside the toolbox
-- Design method to search for existence, or verify absence of Equilibria in external tool
+- Verify a well-known Equilibrium for given instantiations of the model, comparing running times of the external tool with verification inside the toolbox
+- Design method to search for the existence or verify the absence of Equilibria in external tool
 
 ## Reading material
 

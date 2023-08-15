@@ -11,9 +11,9 @@
 ## Project Description
 
 Byzantine fault-tolerant (BFT) protocols are at the core of modern blockchain ecosystems.
-The Relab research group maintains an prototype for one such protocol, namely the Hotstuff consensus algorithm [1]. 
+The Relab research group maintains a prototype for one such protocol, namely the Hotstuff consensus algorithm [1]. 
 
-To evaluate the prototype in realistic wide area scenarios is challenging and resource intensive.
+Evaluating the prototype in realistic wide-area scenarios is challenging and resource-intensive.
 The evaluation via a network simulator would therefore be beneficial.
 
 The goal of this project is to integrate the prototype with the Delphi-BFT network simulator [2,3].
@@ -24,8 +24,8 @@ The goal of this project is to integrate the prototype with the Delphi-BFT netwo
 * Integrate the relab/hotstuff with the Delphi-BFT network simulator.
 * Run extensive simulation:
   * Compare small simulated deployments with real deployment
-  * Evaluate large scale and wide area deployments in simulation
-* (optional) Integrate small scale simulations into the CI pipeline of relab/hotstuff.
+  * Evaluate large-scale and wide-area deployments in simulation
+* (optional) Integrate small-scale simulations into the CI pipeline of relab/hotstuff.
 
 ## References
 

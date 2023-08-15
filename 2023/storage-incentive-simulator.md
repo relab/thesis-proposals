@@ -1,4 +1,4 @@
-# A simulator on Swarm storage incentive
+# A simulator on Swarm storage incentives
 
 ## Administrative
 
@@ -7,7 +7,6 @@
 ## Prerequisites
 
 - DAT650 Blockchain Technology
-- Excellent programming skills
 
 ## Background
 

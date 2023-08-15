@@ -11,12 +11,12 @@
 
 ## Project Description
 
-A trusted execution environment (TEE) such as Intel software guard extensions (SGX) or ARM trust zone, allows to run code in a trusted environment on remote systems.
-For example, this allows to outsource operations to the cloud, without needing to trust the cloud provider with your data, or the correctness or your computations.
+A trusted execution environment (TEE), such as Intel software guard extensions (SGX) or ARM trust zone, allows to run code in a trusted environment on remote systems.
+For example, this allows outsourcing operations to the cloud without the need to trust the cloud provider with your data or the correctness of your computations.
 Similarly, this allows the employment of edge devices, which are located near users, allowing attackers to gain physical access.
 
-The goal for this project is to evaluate a recent framework Ego [1] for the implementation of trusted enclaves, using the Go language.
-As example application, this project aims to reimplement the ContractBox smart contract framework [2].
+The goal of this project is to evaluate a recent framework, Ego [1], for the implementation of trusted enclaves using the Go language.
+As an example application, this project aims to reimplement the ContractBox smart contract framework [2].
 
 ## Milestones
 
