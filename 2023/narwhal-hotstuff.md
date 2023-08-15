@@ -21,10 +21,18 @@ Byzantine fault tolerant (BFT) protocols are often used to implement blockchains
 One approach to improve the scalability of BFT protocols is to separate the dissemination of transactions from the ordering of the transactions.
 In this project, the goal is to implement a mempool library based on the Narwhal mempool protocol, using our existing frameworks.
 
-Clients submit their transactions to the mempool through validators and mempool nodes store these transactions reliably.
-Participating nodes pick a part of transactions, dessiminate and commit them using a consensus protocol.
-Narwhal proposed a improved mempool protocol to reliably distribute the transactions to the replicas apart from storing it.
-With this kind of mempool, replicas don't have to dessiminate the transactions instead use small references to conduct consensus.
+### What is a mempool?
+
+For applications that need to reliably disseminate transactions to a set of validator replicas, and order those transactions, a mempool can be used for the dissemination phase.
+For such applications, clients submit their transactions to the mempool, which stores them reliably.
+The validator replicas pick a subset of the transactions from the mempool, orders and commits the transactions using a consensus protocol.
+Hence, a mempool is a component that stores the transactions until they are committed.
+The mempool nodes are typically co-located with validators.
+
+### Narwhal's mempool
+
+Narwhal proposed an improved mempool protocol to reliably distribute the transactions to the replicas apart from storing it.
+With this kind of mempool, replicas do not have to disseminate the transactions, and can instead use compact references to transactions in the mempool, for conducting consensus.
 This improves the performance of the consensus protocol.
 We aim to implement this mempool in our hotstuff framework to compare the benefits of the new design.
 
