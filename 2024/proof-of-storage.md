@@ -29,16 +29,25 @@ In addition, this work will be relevant for Snarl, which is a novel component de
 
 ### Proof-of-Storage
 
-Proving data possession by retrieval is problematic both in terms of network bandwidth, and hard-drive I/O. Instead, we can generate probabilistic proofs of possession without accessing the entire file.
+Proving data possession by retrieval is problematic both in terms of network bandwidth, and hard-drive I/O.
+Instead, we can generate probabilistic proofs of possession without accessing the entire file.
 
-The basis of such a probabilistic proof is to have the verifier **V** store a constant amount of metadata which is kept secret from the prover **P** and used to generate probabilistic storage challenges **C**. A challenge-proof cycle start by having **V** generate a random challenge **C** and send it to **P**. Then **P** computes the proof and sends it back to **V**. Finally **V** verifies the proof. If the proof is invalid, **P** will be marked as faulty. Failure to respond will also result in being marked as faulty.
+The basis of such a probabilistic proof is to have the verifier **V** store a constant amount of metadata which is kept secret from the prover **P** and used to generate probabilistic storage challenges **C**.
+A challenge-proof cycle start by having **V** generate a random challenge **C** and send it to **P**.
+Then **P** computes the proof and sends it back to **V**.
+Finally **V** verifies the proof.
+If the proof is invalid, **P** will be marked as faulty.
+Failure to respond will also result in being marked as faulty.
 
-A few examples of Proof of Storage algorithms are given in the Reading Material section. The algorithms offer different properties in terms of performance, accuracy and metadata requirements. By using homomorphic encryption, it is even possible to gain the *public verifiability* property, which refers to the ability of anyone, not just the data owner, to take on the role as the verifier. This is highly interesting for storage system powered by a blockchain, as the metadata could be appended to the ledger to empower all users to verify storage.
+A few examples of Proof of Storage algorithms are given in the Reading Material section.
+The algorithms offer different properties in terms of performance, accuracy and metadata requirements.
+By using homomorphic encryption, it is even possible to gain the *public verifiability* property, which refers to the ability of anyone, not just the data owner, to take on the role as the verifier.
+This is highly interesting for storage system powered by a blockchain, as the metadata could be appended to the ledger to empower all users to verify storage.
 
 ### Tasks / Milestones
 
 - Literature review of Proof of Storage algorithms
-- Analyse different design alternatives and consider key features such as:
+- Analyze different design alternatives and consider key features such as:
   - Public verifiability
   - Computation impact
   - Proof and challenge sizes
@@ -46,7 +55,7 @@ A few examples of Proof of Storage algorithms are given in the Reading Material 
 - Evaluate your implementation on our BBChain cluster
 - Report on findings and lesson learned from the implementations
 - Compare the new design with existing Proof of Storage algorithms
-- Show how we can aggegate storage proofs to estimate the replication factor in the storage network
+- Show how we can aggregate storage proofs to estimate the replication factor in the storage network
 
 ### Background on Distributed Storage Systems
 
@@ -65,4 +74,4 @@ A few videos to get an overview of the technology
 - [PIEs: Public Incompressible Encodings for Decentralized Storage](https://eprint.iacr.org/2018/684.pdf)
 - [Book of Swarm](https://www.ethswarm.org/The-Book-of-Swarm.pdf)
 - [Swarm Whitepaper](https://www.ethswarm.org/swarm-whitepaper.pdf)
-- [Snarl](##TODO)
+- [Snarl](https://github.com/snarlorg/bee-snarl)
