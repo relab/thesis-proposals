@@ -1,4 +1,4 @@
-# Implement a QUIC RPC library
+# Redesign Gorums with Better Modularity and Generics
 
 ## Administrative
 
@@ -10,6 +10,14 @@
 - Have an interest in distributed systems and networking
 
 ## Project Description
+
+The goal of this project is to rethink the design of Gorums to provide better modularity, decoupling, and to use generics where appropriate.
+
+Support RPC calling to groups (configurations).
+Should draw experience from relab/hotstuff's eventloop (eloop or evloop or eveloop) and other features.
+Should maybe be compatible with connect-go. Reach out to them for advice on or suggestions for the API needing to support multiple URLs, and the QuorumFunction.
+
+## OLD BELOW
 
 The goal of this project is to implement a QUIC RPC library in Go.
 The library should support the following features:
