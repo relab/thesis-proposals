@@ -76,6 +76,7 @@ Here is a list of the ones I can think of that are implemented in Go:
 
 Rust alternatives:
 
+- Supra
 - Aptos
 - Mysten Labs
 - Solana

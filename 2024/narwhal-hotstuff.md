@@ -2,7 +2,7 @@
 
 ## Administrative
 
-- Supervisor: Hanish Gogada, Hein Meling, Leander Jehl
+- Supervisors: Hanish Gogada, Hein Meling, Leander Jehl
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Our frameworks are being used by other research groups around the world.
 
 Byzantine fault tolerant (BFT) protocols are often used to implement blockchains, but their lack of scalability is a challenge.
 One approach to improve the scalability of BFT protocols is to separate the dissemination of transactions from the ordering of the transactions.
-In this project, the goal is to implement a mempool library based on the Narwhal mempool protocol, using our existing frameworks.
+In this project, the goal is to implement a mempool library based on the [Narwhal][1] mempool protocol, using our existing frameworks.
 
 ### What is a mempool?
 
@@ -31,23 +31,29 @@ The mempool nodes are typically co-located with validators.
 
 ### Narwhal's mempool
 
-Narwhal proposed an improved mempool protocol to reliably distribute the transactions to the replicas apart from storing it.
+[Narwhal][1] proposed an improved mempool protocol to reliably distribute the transactions to the replicas apart from storing it.
 With this kind of mempool, replicas do not have to disseminate the transactions, and can instead use compact references to transactions in the mempool, for conducting consensus.
 This improves the performance of the consensus protocol.
-We aim to implement this mempool in our hotstuff framework to compare the benefits of the new design.
+We aim to implement this mempool in our [hotstuff][4] framework to compare the benefits of the new design.
 
 ## Tasks
 
-- Read Narwhal[1], HotStuff[2], BullShark[3] papers.
-- Become familiar with [4] and [5] for the Go implementation of HotStuff and Gorums; see also [4] and [5] for additional reading material.
-- Design and implement the Narwhal mempool within the existing framework.
-- Evaluate the benefits of Narwhal mempool with different configurations.
-- Analyze and verify the claims of the Narwhal-Hotstuff protocol.
+- Read [Narwhal][1], [HotStuff][2], [BullShark][3] papers
+- Become familiar with [relab/hotstuff][4] and [relab/gorums][5] for the Go implementation of HotStuff and Gorums
+- Design and implement the Narwhal mempool within the existing framework
+- Evaluate the benefits of Narwhal mempool with different configurations
+- Analyze and verify the claims of the Narwhal-Hotstuff protocol
 
 ## Reading materials
 
-- [1] [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus](https://arxiv.org/pdf/2105.11827.pdf)
-- [2] [Yin, Maofan, et al. "Hotstuff: Bft consensus with linearity and responsiveness.](https://dl.acm.org/doi/pdf/10.1145/3293611.3331591)
-- [3] [Bullshark: DAG BFT Protocols Made Practical](https://arxiv.org/abs/2201.05677)
-- [4] [relab/hotstuff](https://github.com/relab/hotstuff)
-- [5] [relab/gorums](https://github.com/relab/gorums)
+- [Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus][1]
+- [Hotstuff: BFT consensus with linearity and responsiveness.][2]
+- [Bullshark: DAG BFT Protocols Made Practical][3]
+- [relab/hotstuff][4]
+- [relab/gorums][5]
+
+[1]: https://arxiv.org/pdf/2105.11827.pdf
+[2]: https://dl.acm.org/doi/pdf/10.1145/3293611.3331591
+[3]: https://arxiv.org/abs/2201.05677
+[4]: https://github.com/relab/hotstuff
+[5]: https://github.com/relab/gorums
