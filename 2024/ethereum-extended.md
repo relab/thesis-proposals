@@ -7,7 +7,7 @@
 ## Prerequisites
 
 - Linux
-- Recommended to take DAT650 Blockchain technology concurrently
+- DAT650 Blockchain technology (Recommended) 
 
 ## Project Description
 
