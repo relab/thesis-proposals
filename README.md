@@ -5,5 +5,6 @@
 - It is good practice to write a single sentence per line.
   If you are writing a bullet list, then you can start a new sentence by indenting the line with two spaces.
 - You can use the markdown preview to make sure that the text is formatted correctly.
-- Please use the markdown link format, where you list links at the bottom of the document, and refer to them using a number in square brackets, e.g., `[1]`.
-  See for example the [2024/minimal-hash-func.md](2024/minimal-hash-func.md) file.
+- Please use the markdown link format, where you list links at the bottom of the document, and refer to them using a number in square brackets, e.g., `[1]: https://github.com/relab/gorums`.
+  See for example the [2024/minimal-hash-func.md](https://raw.githubusercontent.com/relab/thesis-proposals/master/2024/minimal-hash-func.md) file.
+- You can push new proposals directly to the main branch; no need to create a pull request.
