@@ -6,6 +6,7 @@
 
 ## Prerequisites
 
+- Distributed systems (DAT520)
 - Proficient in the Go programming language
 - Have a strong interest in software design with a focus on distributed systems and networking
 
