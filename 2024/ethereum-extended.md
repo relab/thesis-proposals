@@ -25,7 +25,7 @@ There are previous studies on how to deploy Ethereum nodes on a private network 
 ## Tasks / Milestones
 
 - Reading previous thesis on deploying ethereum nodes using Proof-of-Work
-- investigate how to deploy Ethereum nodes using Proof-of-Stake
+- Investigate how to deploy Ethereum nodes using Proof-of-Stake
 - Deploy nodes on a local machine
 - Deploy nodes on the cluster
 - Analysis
