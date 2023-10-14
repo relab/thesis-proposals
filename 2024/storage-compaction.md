@@ -4,14 +4,21 @@
 
 - Supervisor: Hein Meling
 - Co-supervisors: Natacha Crooks and Suyash Gupta (University of California, Berkeley)
+- Prof Meling is currently on sabbatical, but will be available for physical meetings from November 27, 2023.
+- Before that I will be happy to answer questions by email, or set up a Zoom call to discuss the project with prospective students.
+- Contact: <hein.meling@uis.no>
+- Several students can work on this project.
 
 ### Prerequisites
+
+- Rust or Go programming language
+- Excellent programming skills
+
+### Recommended Courses
 
 - Distributed systems (DAT520)
 - Security and Vulnerability in Networks (DAT510)
 - Blockchain Technologies (DAT650)
-- Go programming language
-- Excellent programming skills
 
 ### Motivation
 
@@ -55,28 +62,30 @@ The secondary goal is to evaluate the performance of Samurai on the other blockc
 
 ### Reading Material
 
-- [Samurai: Slash your Decentralized Storage][1]
-- More will be added...
+- [Samurai: Slash your Decentralized Storage][1] (link will be added when the poster paper is officially published)
 
-[1]: https://github.com/relab/thesis-proposals/2024/samurai-poster.pdf
+### Possible Blockchain Implementations
 
-### Possible Blockchain Implementations to use
+There is a slew of blockchains that could be used for this project.
+Below is a list of possible candidates in Go and Rust.
+If more than one student is interested in this project, we can coordinate so that each student works on a different blockchain implementation.
 
-I'm looking for something relatively stable and robust with good documentation to give the student(s) a good experience...
-Here is a list of the ones I can think of that are implemented in Go:
+#### Go Blockchains
 
 - Bitcoin: <https://github.com/btcsuite/btcd>
 - Cosmos: <https://cosmos.network/>
-- GnoLand: <https://gno.land/>
+- GnoLand: <https://gno.land/> (not sure if this is a good choice)
 - ChainLink: <https://chain.link/>  <https://github.com/smartcontractkit/chainlink>
 - Avalanche: <https://www.avax.network/>
-- HotStuff: <https://github.com/relab/hotstuff>
-  This would probably require a lot more work than some others since I think our blockchain application is missing features we probably want for this project...
-- Algorand: (only if there aren't any better options, because ... )
 
-Rust alternatives:
+#### Rust Blockchains
+
+**Warning:** Rust is a very different language than Go, so unless the candidate is already proficient in Rust, I would not recommend choosing a Rust blockchain implementation for this project.
+Moreover, the Samurai prototype is written in Go, so the student would have to port the Samurai code to Rust as well.
 
 - Supra
 - Aptos
 - Mysten Labs
 - Solana
+
+[1]: https://github.com/relab/thesis-proposals/2024/samurai-poster.pdf
