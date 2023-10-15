@@ -3,6 +3,7 @@
 ## Administrative
 
 - Supervisor: Hein Meling
+- Co-supervisor: Conor Power (University of California, Berkeley)
 - Prof Meling is currently on sabbatical, but will be available for physical meetings from November 27, 2023.
 - Before that I will be happy to answer questions by email, or set up a Zoom call to discuss the project with prospective students.
 - Contact: <hein.meling@uis.no>
