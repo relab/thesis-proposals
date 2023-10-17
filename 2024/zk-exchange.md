@@ -74,12 +74,12 @@ The supervisor can provide further guidance on the design choices and implementa
   - Evaluate the implementation and discuss any changes from the original design
 - Report on findings and lessons learned
 
-
 ## Resources
+
 - [Wikipedia page on Zero Knowledge][2]
 - [Zero Knowledge Proof original paper][6]
 - [Why and How zk-SNARK Works: Definitive Explanation][8]
-- [Circom circuit compiler][3]
+- [Circom circuit compiler][3] and [GitHub repo][5]
 - [Example projects on Starknet][4]
 - [Overview article from Ethereum][7]
 
