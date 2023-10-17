@@ -1,4 +1,4 @@
-# Using Zero-Knowledge for fair Stock and Crypto Trading
+# Using Zero-Knowledge for Fair Stock and Crypto Trading
 
 ## Administrative
 

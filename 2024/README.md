@@ -18,4 +18,4 @@ These are the master and bachelor theses projects from the Relab research group 
 | Gorums             | [All-to-all Communication for Multiparty RPC](all-to-all.md)                           |  m  |      | Hein       |             |         |
 | Gorums CRDTs       | [Reconfiguration of OnceTree](once-tree-reconfig.md)                                   |  m  |      | Hein       |             |         |
 | Blockchain Storage | [Storage Compaction for Append-only Ledgers](storage-compaction.md)                    |  m  |      | Hein       |             |         |
-| Stock Market       | [Using Zero-Knowledge for fair Stock and Crypto Trading](zk-exchange.md) |  m  |      | Racin       |             |         |
+| Stock Market       | [Using Zero-Knowledge for Fair Stock and Crypto Trading](zk-exchange.md) |  m  |      | Racin       |             |         |
