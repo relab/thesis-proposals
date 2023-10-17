@@ -24,9 +24,9 @@
 
 A centralized stock exchange such as [Nordnet][1] matches a buyer and seller of a particular security.
 In normal circumstances, the exchange matches the buyer and seller of a particular security at a given price.
-The buyer first has to place a *BUY* order at the exchange, or the seller must place a *SELL* order at the exchange
+The buyer first has to place a *BUY* order at the exchange, or the seller must place a *SELL* order at the exchange.
 
-Regardless of who goes first, a significant amount of information is publicly revealed
+Regardless of who goes first, a significant amount of information is publicly revealed.
 Using this information, other parties can learn about potential arbitrage opportunities, security correlation, etc.
 
 Moreover, from the instant the opposite party clicks to place the order on their device, there is a non-negligible delay until the order is executed.
@@ -46,7 +46,7 @@ When a seller places a *SELL* order, the buyer can prove that he has the right t
 
 After the buyer and seller have been matched and the order executed, it may be publicly revealed to be registered in the official records.
 
-For a practical implementation, allowing the *BUY* and *SELL* orders to reveal some information publicly may be necessary
+For a practical implementation, allowing the *BUY* and *SELL* orders to reveal some information publicly may be necessary.
 This information could be expressed in a range instead of an explicit value, e.g., a *BUY* order for [100,300] stocks at $[50,80] each.
 
 ## Project Description
@@ -59,13 +59,13 @@ In particular, some libraries and dependencies may require a certain programming
 You are expected to evaluate multiple design choices.
 Some of the design criteria to consider are performance, privacy, security, threat model, scalability, correctness, and on/off-chain.
 
-The scope of the project will be limited after discussions during the initial project meetings,
+The scope of the project will be limited after discussions during the initial project meetings.
 
 The supervisor can provide further guidance on the design choices and implementation.
 
 ## Tasks
 
-- Review the supplied resources and other literature on Zero Knowledge proofs and zk-SNARK.
+- Review the supplied resources and other literature on Zero Knowledge proofs and zk-SNARK
   - Write a background section discussing the state-of-the-art
 - Design an exchange based on ZK technology
   - Document the process by considering alternative design choices and pros/cons
