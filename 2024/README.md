@@ -10,6 +10,7 @@ These are the master and bachelor theses projects from the Relab research group 
 | Gobra              | [Formally verified go code](gobra.md)                                          |  b  |      | Leander    |             |         |
 | TLA                | [Verified games](games.md)                                                     |  b  |      | Leander    |             |         |
 | WebRTC             | [Green communication for web applications](greenweb.md)                        |  b  |      | Leander    |             |         |
+| Petals             | [AI based course chat]()                        |  b  |      | Leander    |             |         |
 | HotStuff Mempool   | [Implementation of the Narwhal Mempool](narwhal-hotstuff.md)                   |  m  |      | Hanish     |             |         |
 | CI Testing         | [CI Testing Framework](ci-test-framework.md)                                   |  b  |      | Hanish     |             |         |
 | SNIPS              | [Minimal Perfect Hash Functions for Randomized Datasets](minimal-hash-func.md) |  b  |      | Hein       |             |         |
