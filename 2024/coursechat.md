@@ -25,3 +25,7 @@ This includes a strategy to rate limit questions on discord, as well as possibly
 ## Resources
 
 [1]: https://petals.dev/
+
+#### Other relevant examples
+ * An existing discord bot running at IDE: https://github.com/quickfeed/helpbot
+ * Existing AI discord bot: https://github.com/TuringAI-Team/chatgpt-discord-bot
