@@ -7,7 +7,7 @@
 
 ## Preliminaries
 
-- DAT530 Distributed systems
+- DAT520 Distributed systems
 - Familiarity with Rust will be a plus
 
 ## Project Description
