@@ -28,3 +28,7 @@ Depending on the progress in the thesis, you may work on additional goals like:
 - Generating an additional quint specification of a different algorithm
 
 *If you have questions, please contact Leander Jehl by email or in E403b.*
+
+- [1] [Quint](https://quint-lang.org/)
+- [2] [Hotstuff paper](https://uis.brage.unit.no/uis-xmlui/bitstream/handle/11250/3054769/1968160_Jehl.pdf?sequence=1)
+- [3] [Hotstuff tla spec](https://github.com/leandernikolaus/hotstuff-ivy/blob/master/tla/hotstuff.tla)
