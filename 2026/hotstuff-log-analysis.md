@@ -55,6 +55,7 @@ The existing framework supports logging capabilities and collecting the logs, bu
    - Analyzing the impact of different configurations on protocol performance
    - Automated comparison of logs from different runs to identify regressions or improvements
    - Diff: Visualize the difference between two log files, highlighting changes in protocol behavior and performance metrics
+   - Diff: Should be able to selectively filter which events, replicas, and parts of the log to include in the diff (e.g., only view proposal and vote messages, or only view logs from a specific replica, only view logs from a specific time range)
 
 4. **AI Integration**: Explore the use of AI tools to assist in log analysis.
    This could include using LLMs to identify patterns in the logs or using natural language processing to generate summaries of log data.
