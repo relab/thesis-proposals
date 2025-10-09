@@ -3,6 +3,7 @@
 ## Administrative
 
 - Supervisors: Hein Meling and Leander Jehl
+- Master thesis
 
 ## Prerequisites
 
@@ -31,13 +32,23 @@ Currently, the framework supports several variants of the [HotStuff protocol][4]
 We have also developed a test suite based on the [Twins approach][5].
 Along with the test suite, we have developed a deployment tool to test the implementation on various configurations.
 
+The hotstuff framework is actively maintained. When implementing new features, fixing bugs, or doing code reorganization for improved clarity, the analysis of log files from runs on both localhost and remote machines is a crucial tool, as such runs may show behavior and trigger bugs which are hard to reproduce in a more deterministic setting like unit tests.
+
+One challenge, when analyzing logs, is that log statements may vary in their expressiveness and log statements attesting similar steps may be formulated differently in different code branches. Additionally, log files typically contain a vast amount of information, making it hard to extract relevant differences.
+
 ## Project Description
 
 This project investigates AI-driven methods for analyzing HotStuff BFT protocol logs to recover protocol behavior, diagnose faults, and compare runs—even when logs are semi-structured, inconsistent across versions, or partially missing.
 Rather than prescribing strict logging schemas and parsers, the study explores whether modern language models (LLMs) and complementary machine learning techniques can induce structure from noisy text, infer causal chains, and generate faithful explanations of observed behavior.
 
-The research outcome should be a methodology and evidence for when and how AI can produce a robust and flexible log analysis pipeline that generalizes across HotStuff variants, configurations, and evolving logging styles.
-Where helpful, a minimal proof-of-concept tool may be produced to demonstrate the approach, but the emphasis is on research questions, model design choices, and rigorous evaluation rather than on building a feature-complete product.
+The research outcome should be a methodology and evidence for when and how AI can produce a robust and flexible log analysis pipeline that generalizes across diverging branches, configurations, and evolving logging styles.
+While a proof-of-concept tool should be produced to demonstrate the approach, the emphasis is on research questions, model design choices, and rigorous evaluation rather than on building a feature-complete product.
+
+<!-- Usikker om denne skal være her eller som del av research questions. -->
+Besides completely automated analysis it may also be relevant to analyze how AI can support individual steps in log analysis.
+This may include grouping of log statements into larger logical units, labeling those units and highlighting causal and temporal dependencies between units. 
+Another related question is how AI based log analysis can profit from access to code files.
+
 
 ### Objectives
 
