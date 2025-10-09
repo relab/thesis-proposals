@@ -3,6 +3,7 @@
 ## Administrative
 
 - Supervisor: Leander Jehl and Hein Meling
+- Master thesis
 
 ## Prerequisites
 
