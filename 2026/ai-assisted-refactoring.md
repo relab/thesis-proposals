@@ -34,7 +34,7 @@ Along with the test suite, we have developed a deployment tool to test the imple
 ## Project Description
 
 The goal of this project is to use AI tools to find potential for clarification, and code improvement in the project.
-You should systematically submit the complete code base for review by AI, filter and sort the resulting recommendations and submit pull requests for useful recommendations.
+You should systematically submit the existing code for review by AI, filter and sort the resulting recommendations and submit pull requests for useful recommendations.
 
 While we hope to do real improvements to the code a partial goal for this project is also to better understand the capabilities and proposal that can be received from the AI.
 
