@@ -1,9 +1,10 @@
-# Quickfeed's Database Revisited
+# Bachelor: Quickfeed's Database Revisited
 
 ## Administrative
 
 - Supervisor: Hein Meling and Jostein Hagen Lindhom
-- Group Composition: 1-4 students (the scope can be adjusted based to the number of students)
+- Group Composition: 1-3 students (the scope can be adjusted based to the number of students)
+- Bachelor thesis
 
 The project involves working with a moderately complex codebase, but is mainly restricted to the database layer.
 
