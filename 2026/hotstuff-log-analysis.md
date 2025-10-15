@@ -4,8 +4,9 @@
 
 - Supervisor: Hein Meling
 - Group Composition: 1-3 students (the scope can be adjusted based to the number of students)
+- Bachelor thesis
 
-## Prerequisites
+## Prere
 
 - Familiarity with Operating Systems, Systems Programming, and Databases is recommended
 - Willingness to learn about Distributed Systems
