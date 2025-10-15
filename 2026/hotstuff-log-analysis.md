@@ -6,7 +6,7 @@
 - Group Composition: 1-3 students (the scope can be adjusted based to the number of students)
 - Bachelor thesis
 
-## Prere
+## Prerequisites
 
 - Familiarity with Operating Systems, Systems Programming, and Databases is recommended
 - Willingness to learn about Distributed Systems
