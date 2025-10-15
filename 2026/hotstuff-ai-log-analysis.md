@@ -47,34 +47,38 @@ Rather than prescribing strict logging schemas and parsers, the study explores w
 The research outcome should be a methodology and evidence for when and how AI can produce a robust and flexible log analysis pipeline that generalizes across diverging branches, configurations, and evolving logging styles.
 While a proof-of-concept tool should be produced to demonstrate the approach, the emphasis is on research questions, model design choices, and rigorous evaluation rather than on building a feature-complete product.
 
-<!-- Usikker om denne skal være her eller som del av research questions. -->
 Besides completely automated analysis it may also be relevant to analyze how AI can support individual steps in log analysis.
 This may include grouping of log statements into larger logical units, labeling those units and highlighting causal and temporal dependencies between units.
 Another related question is how AI based log analysis can profit from access to code files.
 
 ### Objectives
 
-1. Research-oriented Literature Review
-   - Survey AI for log mining (LLM-based extraction, anomaly detection, event classification), causal inference from logs, and analyses of BFT/SMR telemetry.
-   - Identify gaps in handling unstructured/semi-structured logs, log drift, and cross-run comparisons.
+1. **Review research** on AI-assisted log analysis based on system logs, in particular for distributed systems.
 
-2. Research Questions (RQs)
-   - RQ1: Structure induction — Can LLMs or fine-tuned models infer event types and fields (e.g., proposal, vote, QC, height, replica ID) from semi-structured HotStuff logs without a fixed schema?
-   - RQ2: Causal reconstruction — Can AI reliably reconstruct causal chains (e.g., proposal→vote→QC→commit) and timeline alignment across replicas?
-   - RQ3: Robustness to changes — How robust is AI methods to protocol changes and logging style changes (renamed fields, reordered messages, missing fields/messages)?
-   - RQ4: Diffing and summarization — Can LLM-based summarization produce accurate cross-run diffs?
-   - RQ5: Explanations — Can AI provide natural-language explanations of regressions, timeouts, or view changes?
+2. **Plan AI usage and documentation**: Define how to document prompts, context (logs, code, AGENTS.md etc.), agent roles, provenance (human vs. AI), and evaluation criteria.
 
-3. Study Design and Evaluation
-   - Data: Construct a corpus from the HotStuff framework and Twins-based tests, covering diverse configurations, failures, and protocol variants. Where possible, derive ground truth (e.g., committed heights, leader sequence, vote counts) from the test harness or instrumentation.
-   - Baselines: Regex/state-machine parsers and schema-dependent tools that assume strictly structured logs.
-   - Methods: Few-shot LLM extraction to a JSON event schema; constrained decoding or tool-calling to ensure type correctness; embedding-based clustering for event templates; optional light fine-tuning or adapters if justified.
-   - Metrics: Event extraction F1; sequence/causal reconstruction accuracy (edit distance to ground-truth traces); anomaly/diff detection AUROC; faithfulness judged vs. protocol-derived facts; robustness under controlled perturbations (noise, dropped lines, renamed fields); runtime and token cost.
+3. **Develop a log analysis pipeline for HotStuff logs**: May include these and other steps:
+   - Reduction phase to limit context: summarize key events from raw logs.
+   - Prepare plan (AGENTS.md)
+   - Support high-value queries (what/where/why/causality/consistency/regression/comparison) against reduced logs.
 
-4. Expected Outcomes
-   - A validated methodology and reference implementation sufficient to reproduce experiments.
-   - An ablation showing where AI helps most (e.g., schema induction, gap filling, summarization) and when rules suffice.
-   - Recommendations for logging practices that maximize AI effectiveness without enforcing rigid schemas.
+4. **Evaluate** the approach on real HotStuff/Twins logs, measuring accuracy, robustness to log drift, and usefulness for debugging and regression detection.
+
+<!-- What types of questions are relevant?
+Can you prepare a list of relevant questions?
+
+Can we answer questions like:
+
+- Where does event X happen?
+- Why did replica Y timeout?
+- Why did the leader fail?
+- Does event X always lead to event Y?
+- Does a timeout always lead to a view change?
+- In what context did event Z occur?
+- Which events causally preceded it?
+- Which events are relevant that led to X?
+- Is this a regression compared to run Y?
+- Is this the context in all runs where X occurs? -->
 
 [3]: https://github.com/relab/hotstuff
 [4]: https://arxiv.org/abs/1803.05069
