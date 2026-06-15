@@ -44,7 +44,7 @@ Optional extensions include multiple trees, redundant parents, simple tree recon
 
 This capstone can lead to a thesis on scalable BFT communication in Gorums.
 Possible directions include comparing several aggregation topologies, designing routed quorum-calls, studying robustness under faulty internal nodes, or integrating tree aggregation into a complete HotStuff implementation.
-See also the umbrella [proposal](capstone-gorums-byzantine-protocols.md).
+See also the umbrella [description](capstone-gorums-byzantine-protocols.md).
 
 ## Reading Materials
 
