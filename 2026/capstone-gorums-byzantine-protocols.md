@@ -1,8 +1,8 @@
-# Capstone Project Family: Byzantine Protocols using Gorums
+# Capstone Projects using Gorums
 
 ## Overview
 
-These 10 ECTS capstone projects explore how Byzantine fault-tolerant protocols can be implemented using [Gorums][1], a UiS framework for group-RPCs and quorum-calls.
+These capstone projects aim to explore how Byzantine fault-tolerant protocols can be implemented using [Gorums][1] (code [here][2]).
 Each student chooses one project option and implements a focused protocol component or small protocol variant in Go.
 
 The four project options are:
@@ -16,10 +16,10 @@ The projects have a shared theme: use one concrete Byzantine protocol to evaluat
 
 ## Prerequisites
 
-- DAT520 Distributed Systems is recommended
+- DAT520 Distributed Systems is required
 - Good Go programming skills
 - Interest in distributed systems, networking, and software design
-- Willingness to use AI tools critically, for example ChatGPT or GitHub Copilot
+- Able to use AI tools critically
 
 ## AI Tools
 
@@ -68,12 +68,6 @@ Examples include:
 
 - [Gorums paper][1]
 - [Gorums source code][2]
-- [Integrate Multiparty Support in Gorums using Interceptors][3]
-- [HotStuff: BFT Consensus in the Lens of Blockchain][4]
-- [Relab HotStuff framework][5]
 
 [1]: https://ieeexplore.ieee.org/document/7980198
 [2]: https://github.com/relab/gorums
-[3]: gorums-multiparty.md
-[4]: https://arxiv.org/abs/1803.05069
-[5]: https://github.com/relab/hotstuff
