@@ -14,12 +14,12 @@ This makes BRB small enough for a capstone project, while still exposing importa
 
 ## Goal
 
-Implement a Bracha-style Byzantine reliable broadcast prototype in Go using Gorums.
+Implement a Bracha-style Byzantine reliable broadcast prototype in Go using [Gorums][2].
 The prototype supports multiple replicas, concurrent broadcast instances, duplicate handling, and a few Byzantine sender/receiver scenarios.
 
 ## Suggested Stages
 
-1. Read the main BRB material and Gorums multiparty communication material.
+1. Read the main BRB material and Gorums multiparty communication material (see references [1][1], [3][3], [4][4], [5][5])
 2. Define the broadcast API and message identifiers.
 3. Implement the send, echo, ready, and deliver logic.
 4. Add duplicate detection and basic equivocation handling.
@@ -41,20 +41,18 @@ Optional extensions include a scalable BRB variant, an erasure-coded variant, or
 
 This capstone can lead to a thesis on Byzantine broadcast abstractions.
 Possible directions include comparing BRB variants, designing Gorums support for server-side quorum logic, integrating BRB into a DAG-based protocol, or developing a reusable Byzantine broadcast test framework.
-See also the umbrella [proposal](capstone-gorums-byzantine-protocols.md).
+See also the umbrella [description](capstone-gorums-byzantine-protocols.md).
 
 ## Reading Materials
 
 - [Gorums paper][1]
 - [Gorums source code][2]
-- [Integrate Multiparty Support in Gorums using Interceptors][3]
-- [Scalable Byzantine Reliable Broadcast][4]
-- [Reliable Broadcast in Practical Networks][5]
-- [Byzantine Reliable Broadcast with Low Communication and Time Complexity][6]
+- [Scalable Byzantine Reliable Broadcast][3]
+- [Reliable Broadcast in Practical Networks][4]
+- [Byzantine Reliable Broadcast with Low Communication and Time Complexity][5]
 
 [1]: https://ieeexplore.ieee.org/document/7980198
 [2]: https://github.com/relab/gorums
-[3]: gorums-multiparty.md
-[4]: https://arxiv.org/abs/1908.01738
-[5]: https://arxiv.org/abs/2007.14990
-[6]: https://arxiv.org/abs/2404.08070
+[3]: https://arxiv.org/abs/1908.01738
+[4]: https://arxiv.org/abs/2007.14990
+[5]: https://arxiv.org/abs/2404.08070
