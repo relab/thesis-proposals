@@ -1,4 +1,4 @@
-# Capstone: Clean HotStuff Implementation using Gorums
+# Capstone: Clean Slate HotStuff Implementation using Gorums
 
 - Supervisor: Hein Meling
 - Fall capstone project, 10 ECTS
