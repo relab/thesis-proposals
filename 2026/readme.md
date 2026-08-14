@@ -2,6 +2,8 @@
 
 These are the 10 ECTS capstone projects from the Relab research group at the University of Stavanger.
 
+Students preparing a master's thesis project description can use the [writing guide](../admin/master-thesis-description-guide.md) and the [copy-ready template](../admin/master-thesis-description-template.md).
+
 See also the shared project-family overview: [Byzantine Protocols using Gorums](capstone-gorums-byzantine-protocols.md).
 
 | Topic | Title | Supervisor | Assigned | Comment |
