@@ -8,3 +8,7 @@
 - Please use the markdown link format, where you list links at the bottom of the document, and refer to them using a number in square brackets, e.g., `[1]: https://github.com/relab/gorums`.
   See for example the [2024/minimal-hash-func.md](https://raw.githubusercontent.com/relab/thesis-proposals/master/2024/minimal-hash-func.md) file.
 - You can push new proposals directly to the main branch; no need to create a pull request.
+
+## Preparing a thesis proposal
+
+Students preparing a master's thesis project description can use the [writing guide](../admin/master-thesis-description-guide.md) and the [copy-ready template](../admin/master-thesis-description-template.md).
