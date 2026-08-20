@@ -11,4 +11,4 @@
 
 ## Preparing a thesis proposal
 
-Students preparing a master's thesis project description can use the [writing guide](../admin/master-thesis-description-guide.md) and the [copy-ready template](../admin/master-thesis-description-template.md).
+Students preparing a master's thesis project description can use the [writing guide](admin/master-thesis-description-guide.md) and the [copy-ready template](admin/master-thesis-description-template.md).
