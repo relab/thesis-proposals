@@ -28,6 +28,7 @@ What is the baseline? What dataset, benchmark will you use?]
 
 - Core work: [essential implementation, evaluation, or study]
 - Optional work: [extension if time allows]
+- Alternatives: [alternatives, if core work not feasible]
 
 ## References
 

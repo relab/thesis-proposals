@@ -8,7 +8,8 @@ A typical research question is of the form:
 
 *How much does methodology/technology X improve metric M when applied to problem Y?*
 
-In your project description you should make clear that your research question is at the frontier of science, how you want to evaluate it, and why it is a plausible approach.
+In your project description you should make clear that your research question is at the frontier of science, how you want to evaluate it, and why it is a plausible approach. 
+Finally, you should plan a flexible scope in case things turn out harder or easier than expected.
 Use the [project description template](master-thesis-description-template.md) as a starting point.
 
 ## Frontier of Science
@@ -30,6 +31,12 @@ In your project description, you need to explain how you can evaluate your resea
 Finally, your project description should explain why it is **plausible** that your method may lead to a satisfactory solution for your problem.
 A thesis may not always produce a positive result, and the evaluation should be performed with an open mind.
 Still, to justify investing in the evaluation, a positive result should be plausible.
+
+## Flexible scope
+
+It is often difficult to grasp how feasible a master's thesis is.
+You should therefore plan ahead, what is the minimal necessary work needed to answer the research question? 
+You should also consider, what additional features could be relevant if time allows, and what simpler alternative exist, if you fail to complete the necessary work?
 
 ## Checklist
 
