@@ -1,6 +1,6 @@
 # Master's Thesis Project Description
 
-See the [writing guide](master-thesis-description-guide.md) for what makes a good project description.
+See the [writing guide](master-thesis-proposal-guide.md) for what makes a good project description.
 
 ## Administrative
 

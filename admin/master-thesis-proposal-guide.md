@@ -10,7 +10,7 @@ A typical research question is of the form:
 
 In your project description you should make clear that your research question is at the frontier of science, how you want to evaluate it, and why it is a plausible approach. 
 Finally, you should plan a flexible scope in case things turn out harder or easier than expected.
-Use the [project description template](master-thesis-description-template.md) as a starting point.
+Use the [project description template](master-thesis-proposal-template.md) as a starting point.
 
 ## Frontier of Science
 
