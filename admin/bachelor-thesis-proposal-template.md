@@ -22,7 +22,7 @@ For oppgaver som utforsker et forskningsspørsmål, se gjerne på [malen for mas
 [Beskriv kjapt hvorfor det er relevant å utvikle denne applikasjonen.]
 
 ## Mål for applikasjonen
-[Beskriv noen mål for applikasjonen. Fokuser på ikke-funksjonelle mål, eller mål som er vanskelig å få til.]
+[Beskriv de viktigste mål for applikasjonen. Fokuser på mål som er vanskelig, nyskapende, eller ikke-funksjonelle mål.]
 
 - [Applikasjon skal kunne gjøre XXX]
 
@@ -38,7 +38,7 @@ For oppgaver som utforsker et forskningsspørsmål, se gjerne på [malen for mas
 
 ## Alternativer
 
-[Beskriv noen alternative framgansmåter som du tenker du kan drøfte i oppgaven.]
+[Beskriv noen alternative framgangsmåter som du tenker du kan drøfte i oppgaven.]
 
 ## [Optional] Bidrag fra ekstern samarbeidspartner
 

@@ -1,5 +1,6 @@
 Det viktigste når dere vil foreslå deres egen bacheloroppgave, er å ta kontakt og snakke med en mulig veileder.
 Nedenfor kommer noen tips om hva som utgjør en god prosjektbeskrivelse for en bacheloroppgave.
+Bruk gjerne [malen for å foreslå en bacheloroppgave](bachelor-thesis-proposal-template.md).
 
 # Hva utgjør en god prosjektbeskrivelse for en bacheloroppgave
 
@@ -20,7 +21,7 @@ En bacheloroppgave som utvikler eller videreutvikler en applikasjon, stiller st�
 Likevel er det ikke nok for en god bacheloroppgave å bare vise fram et ferdig produkt.
 En god bacheloroppgave skal både *definere mål og kriterier* for applikasjonen, *drøfte ulike alternativer* og *evaluere resultatet mot kriteriene*.
 
-Mål og alternativer kan forandre seg under oppgaven, men det blir enklere om dere har tenkt gjennom dette alerede.
+Mål og alternativer kan forandre seg under oppgaven, men det blir enklere om dere har tenkt gjennom dette allerede.
 
 ### Definere mål og evaluere resultatet
 Du må definere hva applikasjonen skal gjøre.
