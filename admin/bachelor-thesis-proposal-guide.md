@@ -19,17 +19,20 @@ Hvis dere kjenner til et nytt og lovende rammeverk, kan det for eksempel være e
 En bacheloroppgave som utvikler eller videreutvikler en applikasjon, stiller større krav til at applikasjonen er brukbar og fullstendig.
 
 Likevel er det ikke nok for en god bacheloroppgave å bare vise fram et ferdig produkt.
-En god bacheloroppgave skal både *definere mål og kriterier* for applikasjonen, *drøfte ulike alternativer* og *evaluere resultatet mot kriteriene*.
+En god bacheloroppgave skal både *definere mål og kriterier* for applikasjonen, *drøfte ulike alternativer* og *evaluere resultatet mot kriteriene*. 
+For å kunne evaluere om prosjektet er gjennomførbart trenger vi dessuten noe informasjon om *teknologi og forkunnskaper*.
 
 Mål og alternativer kan forandre seg under oppgaven, men det blir enklere om dere har tenkt gjennom dette allerede.
 
 ### Definere mål og evaluere resultatet
 Du må definere hva applikasjonen skal gjøre.
 Beskriv om det er noen aspekter ved applikasjonen som er spesielt vanskelige å implementere.
+Beskriv hvorfor dette er vanskelig, og hva slags tilnærming eller teknologi som eventuelt kan brukes.
+
 For en god oppgave er det også nyttig å definere noen ikke-funksjonelle mål.
 Slike mål gjør det enklere å evaluere applikasjonen og gir dere noe å skrive om i rapporten.
 Dette er spesielt viktig dersom applikasjonen ikke krever noen vanskelige eller nyskapende funksjoner.
-Eksempler på slike mål kan være *sikkerhet*, *brukbarhet*, *universell utforming*, *skalerbarhet* eller *modularitet*.
+Eksempler på slike mål kan være *sikkerhet*, *brukbarhet*, *universell utforming*, *skalerbarhet*, *modularitet*, eller *test coverage*.
 
 Planlegg hvordan oppgaven skal evalueres.
 Hvordan skal dere teste om løsningen oppfyller de funksjonelle kravene og de ikke-funksjonelle målene?
@@ -39,3 +42,6 @@ Merk at spesielt ikke-funksjonelle mål ofte er vanskelig å teste, så det er v
 Alternativene dere kan drøfte i oppgaven, kan være ulike teknologier eller ulike tilnærminger, for eksempel å implementere en funksjon i backend eller frontend.
 I en god oppgave vil alle alternativene være reelle, det vil si at de har relevante fordeler.
 Dessuten skal valget av en løsning være begrunnet i fordelene og i løsningens individuelle krav.
+
+### Teknologi og forkunnskap
+For å kunne vurdere om en oppgave er gjennomførbart trenger vi informasjon om hvilken teknologi dere har tenkt å bruke og hva slags forkunnskaper dere har i denne teknologien.

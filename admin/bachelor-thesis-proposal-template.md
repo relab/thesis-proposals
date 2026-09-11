@@ -38,8 +38,13 @@ For oppgaver som utforsker et forskningsspørsmål, se gjerne på [malen for mas
 
 ## Alternativer
 
-[Beskriv noen alternative framgangsmåter som du tenker du kan drøfte i oppgaven.]
+[Beskriv noen alternative framgangsmåter som dere tenker dere kan drøfte i oppgaven.]
+
+## Teknologi og forkunnskap
+
+[Beskriv hvilken teknologi dere tenker å bruke i oppgaven og hva slags forkunnskaper dere har i denne teknologien.]
 
 ## [Optional] Bidrag fra ekstern samarbeidspartner
 
 [Om en ekstern samarbeidspartner er involvert i prosjektet, beskriv gjerne hvordan samarbeidspartneren skal bidra i prosjektet.]
+
